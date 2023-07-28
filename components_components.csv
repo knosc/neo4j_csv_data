@@ -1,5 +1,7 @@
 component_id_start,component_id_end,link
+app-routing.module,signin.component,signin
 app-routing.module,signin.component,first-signin
+app-routing.module,signin.component,signin
 app-routing.module,signin.component,first-signin
 app-routing.module,home.component,home
 app-routing.module,signout.component,signout
@@ -8,10 +10,16 @@ app-routing.module,purchase-order.component,purchase-order
 app-routing.module,purchase-order-archive.component,purchase-order-archive
 app-routing.module,sales-order.component,sales-order
 app-routing.module,sales-order-archive.component,sales-order-archive
+app-routing.module,inventory-planning.component,inventory-planning
 app-routing.module,inventory-planning.component,dashboard-inventory-planning
+app-routing.module,inventory-planning.component,inventory-planning
 app-routing.module,inventory-planning.component,dashboard-inventory-planning
 app-routing.module,inventory.component,inventory
+app-routing.module,item-master.component,item-master
+app-routing.module,item-master.component,item-master-upload
 app-routing.module,item-master.component,external-item-master
+app-routing.module,item-master.component,item-master
+app-routing.module,item-master.component,item-master-upload
 app-routing.module,item-master.component,external-item-master
 app-routing.module,external-item-master.component,external-item-master
 app-routing.module,supplier-master.component,supplier-master
@@ -30,7 +38,6 @@ app-routing.module,forecast-archive.component,forecast-archive
 app-routing.module,warehouse-master.component,warehouse-master
 app-routing.module,unit-master.component,unit-master
 app-routing.module,dashboard-world-map.component,dashboard-world-map
-app-routing.module,world-map.component,dashboard-world-map
 app-routing.module,admin-roles.component,admin-roles
 app-routing.module,forbidden.component,forbidden
 app-routing.module,dashboard-current-analytics.component,dashboard-current-analytics
@@ -48,16 +55,292 @@ app-routing.module,issue-tracker.component,issue-tracker
 app-routing.module,asn.component,asn
 app-routing.module,dashboard-sales-performance.component,dashboard-sales-performance
 app-routing.module,dashboard-sales-at-risk.component,dashboard-sales-at-risk
+forecast.component,forecast-table.component,@ViewChild('table')
+forecast.component,forecast-table.component,html
+forecast.component,abstract-job.component,extends
+forecast.component,forecast-modal-new.component,onShowModalNew()
+forecast.component,forecast-modal-new.component,onShowModalEdit(index: number)
+forecast.component,modal-yes-no.component,onShowModalDelete(index: number)
+forecast.component,job-progress.component,html
+forecast-modal-details.component,abstract-modal.component,extends
+forecast-modal-details.component,table.component,@ViewChild('table')
+forecast-modal-details.component,table.component,html
+forecast-modal-details.component,table.component,html
+forecast-modal-details.component,customer-master-modal-new.component,Customer Name + Customer Number
+forecast-modal-details.component,manufacturing-order-modal-bom.component,Item Number + Item Description
+forecast-modal-new.component,modal-yes-no.component,onShowModalDeleteDetail(i: number)
+forecast-modal-new.component,auto-complete.component,html
+forecast-modal-new.component,auto-complete.component,html
+forecast-modal-new.component,auto-complete.component,html
+forecast-modal-new.component,auto-complete.component,html
+forecast-modal-new.component,auto-complete.component,html
+forecast-modal-new.component,auto-complete.component,html
+forecast-modal-containing-item.component,table.component,@ViewChild('table')
+forecast-modal-containing-item.component,table.component,html
+forecast-modal-containing-item.component,table.component,html
+forecast-modal-containing-item.component,customer-master-modal-new.component,Customer Name + Customer Number
+forecast-modal-containing-item.component,forecast-modal-details.component,Forecast
+forecast-table.component,collapse-table.component,@ViewChild('collapseTable')
+forecast-table.component,collapse-table.component,html
+forecast-table.component,customer-master-modal-new.component,Customer Name + Customer Number
+forecast-table.component,warehouse-master-modal-new.component,Warehouse Number + Warehouse Name
+forecast-table.component,forecast-modal-containing-item.component,Item Number + Item Description
+forecast-table.component,forecast-modal-details.component,Forecast
+home-graphs.component,home-modal-hot-items.component,onClickHotItems()
+home-graphs.component,dashboard-procurement-by-item-and-status.component,html
+home-graphs.component,dashboard-forecast-by-item.component,html
+home-graphs.component,dashboard-manufacturing-by-item-and-status.component,html
+home-graphs.component,dashboard-manufacturing-by-item-and-status.component,html
+home-graphs.component,dashboard-inventory-by-warehouse.component,html
+home-graphs.component,dashboard-demand-by-item-and-status.component,html
+home-modal-hot-items.component,abstract-modal.component,extends
+home-modal-hot-items.component,inventory-planning-table.component,@ViewChild('table') table: InventoryPlanningTableComponent;)
+home-modal-hot-items.component,inventory-planning-table.component,html
+home-modal-hot-items.component,inventory-planning.component,html
+home-modal-hot-items.component,inventory.component,html
+dashboard-manufacturing-by-item-and-status.component,manufacturing-order-modal-bom.component,direct
+dashboard-manufacturing-by-item-and-status.component,horizontal-stacked-bar-plot.component,html
+dashboard-procurement-items-from-the-same-supplier.component,horizontal-bar-plot.component,@ViewChild('plot')
+dashboard-procurement-items-from-the-same-supplier.component,horizontal-bar-plot.component,html
+dashboard-procurement-items-from-the-same-supplier.component,dashboard-procurement-items-frequency-modal.component,onClick(event: IBarSample)
+dashboard-procurement-items-frequency-modal.component,table.component,@ViewChild('table')
+dashboard-procurement-items-frequency-modal.component,table.component,html
+dashboard-procurement-items-on-the-same-po.component,dashboard-procurement-items-frequency-modal.component,onClick(event: IBarSample)
+dashboard-procurement-items-on-the-same-po.component,horizontal-bar-plot.component,html
+purchase-order.component,purchase-order-table.component,@ViewChild('table')
+purchase-order.component,purchase-order-table.component,html
+purchase-order.component,abstract-job.component,extends
+purchase-order.component,modal-yes-no.component,onShowModalDelete(index: number)
+purchase-order.component,purchase-order-modal-new.component,onShowModalNew()
+purchase-order.component,purchase-order-modal-new.component,onShowModalEdit(index: number)
+purchase-order.component,job-progress.component,html
+purchase-order-modal-new.component,modal-yes-no.component,onShowModalDeleteDetail(i: number)
+purchase-order-modal-new.component,auto-complete.component,html
+purchase-order-modal-new.component,auto-complete.component,html
+purchase-order-modal-new.component,auto-complete.component,html
+purchase-order-modal-new.component,auto-complete.component,html
+purchase-order-modal-new.component,auto-complete.component,html
+purchase-order-modal-new.component,auto-complete.component,html
+purchase-order-modal-details.component,table.component,@ViewChild('table')
+purchase-order-modal-details.component,table.component,html
+purchase-order-modal-details.component,table.component,html
+purchase-order-modal-details.component,abstract-modal.component,extends
+purchase-order-modal-details.component,supplier-master-modal-new.component,Supplier Name + Supplier Number
+purchase-order-modal-containing-item.component,table.component,@ViewChild('table')
+purchase-order-modal-containing-item.component,table.component,html
+purchase-order-modal-containing-item.component,table.component,html
+purchase-order-modal-containing-item.component,supplier-master-modal-new.component,Supplier Name + Supplier Number
+purchase-order-modal-containing-item.component,purchase-order-modal-details.component,Purchase Order
+purchase-order-table.component,collapse-table.component,@ViewChild('collapseTable')
+purchase-order-table.component,collapse-table.component,html
+purchase-order-table.component,supplier-master-modal-new.component,Supplier Name + Supplier Number
+purchase-order-table.component,warehouse-master-modal-new.component,Warehouse Name + Warehouse Number
+purchase-order-table.component,purchase-order-modal-containing-item.component,Item Number + Item Description
+purchase-order-table.component,purchase-order-modal-details.component,Purchase Order
+external-item-master.component,collapse-table.component,@ViewChild('table')
+external-item-master.component,collapse-table.component,html
+external-item-master.component,abstract-job.component,extends
+external-item-master.component,modal-yes-no.component,onShowModalDelete(index: number)
+external-item-master.component,external-item-master-modal-new.component,openModalNew()
+external-item-master.component,job-progress.component,html
+external-item-master-modal-new.component,modal-yes-no.component,onShowModalDeleteExternalItem(i: number)
+external-item-master-modal-new.component,auto-complete.component,html
+external-item-master-modal-new.component,auto-complete.component,html
+dashboard-sales-at-risk.component,dashboard-sales-at-risk-analytics.component,html
+dashboard-sales-at-risk.component,dashboard-sales-at-risk-table-view.component,html
+dashboard-sales-at-risk-analytics.component,modal-table.component,onClick(event: IBarSample)
+dashboard-sales-at-risk-analytics.component,tags-input.component,html
+dashboard-sales-at-risk-analytics.component,vertical-bar-plot.component,html
+dashboard-sales-at-risk-table-view.component,tags-input.component,@Input() tagsComponentExternal
+dashboard-sales-at-risk-table-view.component,sales-order.component,html
+dashboard-sales-at-risk-table-view.component,sales-order-table.component,html
+bill-of-materials.component,bill-of-materials-table.component,@ViewChild('table')
+bill-of-materials.component,bill-of-materials-table.component,html
+bill-of-materials.component,abstract-job.component,extends
+bill-of-materials.component,modal-yes-no.component,onShowModalDelete(index: number)
+bill-of-materials.component,bill-of-materials-modal-new.component,openModalNew()
+bill-of-materials.component,job-progress.component,html
+bill-of-materials-modal-new.component,abstract-modal.component,extends
+bill-of-materials-modal-new.component,modal-yes-no.component,onShowModalDeleteDetail(i: number)
+bill-of-materials-modal-new.component,auto-complete.component,html
+bill-of-materials-modal-new.component,auto-complete.component,html
+bill-of-materials-modal-new.component,auto-complete.component,html
+bill-of-materials-modal-new.component,auto-complete.component,html
+bill-of-materials-modal-new.component,auto-complete.component,html
+bill-of-materials-table.component,collapse-table.component,@ViewChild('collapseTable')
+bill-of-materials-table.component,collapse-table.component,html
+sales-order-archive.component,sales-order-table.component,@ViewChild('table')
+sales-order-archive.component,sales-order-table.component,html
+sales-order-archive.component,abstract-job.component,extends
+sales-order-archive.component,sales-order-modal-new.component,onShowModalEdit(index: number)
+sales-order-archive.component,sales-order.component,html
+sales-order-archive.component,job-progress.component,html
 modal-procurement-by-price.component,abstract-modal.component,extends
 modal-procurement-by-price.component,tags-input.component,@ViewChild('tagsComponent')
 modal-procurement-by-price.component,tags-input.component,html
 modal-procurement-by-price.component,modal-purchase-orders.component,onClickPurchaseOrders(sample: IStackedBarSample)
 modal-procurement-by-price.component,horizontal-stacked-bar-plot.component,html
-modal-procurement-by-price.component,three-dots-menu.component,html
 modal-procurement-by-price.component,date-range-slider.component,html
+modal-procurement-by-price.component,three-dots-menu.component,html
+modal-purchase-orders.component,abstract-modal.component,extends
+modal-purchase-orders.component,purchase-order-table.component,@ViewChild('table') table: PurchaseOrderTableComponent;)
+modal-purchase-orders.component,purchase-order-table.component,html
+modal-purchase-orders.component,purchase-order.component,html
+admin-roles.component,collapse-table.component,@ViewChild('table')
+admin-roles.component,collapse-table.component,html
+admin-roles.component,modal-yes-no.component,onShowModalDelete(index: number)
+admin-roles.component,admin-roles-modal-new.component,openModalNew()
+admin-roles-modal-new.component,modal-yes-no.component,onShowModalDeletePrivilege(i: number)
+admin-roles-modal-new.component,auto-complete.component,html
+admin-roles-modal-new.component,auto-complete.component,html
+admin-roles-modal-new.component,auto-complete.component,html
+forecast-archive.component,forecast-modal-new.component,onShowModalEdit(index: number)
+forecast-archive.component,forecast-table.component,@ViewChild('table')
+forecast-archive.component,forecast-table.component,html
+forecast-archive.component,forecast.component,html
+dashboard-heatmap.component,tags-input.component,@ViewChild('tagsComponent')
+dashboard-heatmap.component,tags-input.component,html
+dashboard-heatmap.component,dashboard-heatmap-items-modal.component,onClickCell(event: string)
+dashboard-heatmap.component,calendar-heatmap.component,html
+dashboard-heatmap.component,three-dots-menu.component,html
+dashboard-heatmap-items-modal.component,table.component,@ViewChild('table')
+dashboard-heatmap-items-modal.component,table.component,html
+dashboard-heatmap-items-modal.component,table.component,html
+dashboard-heatmap-items-modal.component,forecast-modal-containing-item.component,Forecast Quantity
+dashboard-heatmap-items-modal.component,manufacturing-order-modal-containing-item.component,Manufacturing Quantity
+dashboard-heatmap-items-modal.component,modal-ending-inventory.component,Ending Inventory Quantity
+dashboard-heatmap-items-modal.component,purchase-order-modal-containing-item.component,Supply Quantity
+dashboard-heatmap-items-modal.component,sales-order-modal-containing-item.component,Demand Quantity
+supplier-master.component,supplier-master-table.component,@ViewChild('table')
+supplier-master.component,supplier-master-table.component,html
+supplier-master.component,abstract-job.component,extends
+supplier-master.component,supplier-master-modal-new.component,onShowModalNew()
+supplier-master.component,supplier-master-modal-new.component,onShowModalEdit(index: number)
+supplier-master.component,modal-yes-no.component,onShowModalDelete(index: number)
+supplier-master.component,ship-from-master-modal-move.component,onShowModalMoveShipFrom(event: IEventChildRow)
+supplier-master.component,job-progress.component,html
+supplier-master-table.component,collapse-table.component,@ViewChild('collapseTable')
+supplier-master-table.component,collapse-table.component,html
+supplier-master-modal-new.component,modal-yes-no.component,onShowModalDeleteShipFrom(i: number)
+supplier-master-modal-new.component,auto-complete.component,html
+supplier-master-modal-new.component,auto-complete.component,html
+supplier-master-modal-new.component,auto-complete.component,html
+supplier-master-modal-new.component,auto-complete.component,html
+supplier-master-modal-new.component,auto-complete.component,html
+supplier-master-modal-new.component,auto-complete.component,html
+supplier-master-modal-new.component,auto-complete.component,html
+supplier-master-modal-new.component,auto-complete.component,html
+supplier-master-modal-new.component,auto-complete.component,html
+purchase-order-archive.component,abstract-job.component,extends
+purchase-order-archive.component,purchase-order-modal-new.component,onShowModalEdit(index: number)
+purchase-order-archive.component,purchase-order-table.component,@ViewChild('table')
+purchase-order-archive.component,purchase-order-table.component,html
+purchase-order-archive.component,purchase-order.component,html
+purchase-order-archive.component,job-progress.component,html
+dashboard-analytics-purchase-orders.component,dashboard-skus-modal.component,onClickSKUs()
+dashboard-analytics-purchase-orders.component,dashboard-skus-modal.component,onClickInTransitSKUs()
+dashboard-analytics-purchase-orders.component,modal-suppliers.component,onClickSuppliers()
+dashboard-analytics-purchase-orders.component,modal-purchase-orders.component,onClickPurchaseOrders()
+dashboard-revenue-by-customer.component,dashboard-revenue-by-item-modal.component,onClick(event: IBarSample)
+dashboard-revenue-by-customer.component,horizontal-bar-plot.component,html
+dashboard-revenue-by-item-modal.component,abstract-modal.component,extends
+dashboard-revenue-by-item-modal.component,horizontal-bar-plot.component,html
+dashboard-statistics.component,dashboard-skus-modal.component,onClickSKUs()
+dashboard-statistics.component,dashboard-warehouses-modal.component,onClickWarehouses()
+dashboard-warehouses-modal.component,abstract-modal.component,extends
+dashboard-warehouses-modal.component,warehouse-master-table.component,@ViewChild('table')
+dashboard-warehouses-modal.component,warehouse-master-table.component,html
+dashboard-warehouses-modal.component,warehouse-master.component,html
+dashboard-revenue-by-item.component,dashboard-revenue-by-customer-modal.component,onClick(event: IBarSample)
+dashboard-revenue-by-item.component,horizontal-bar-plot.component,html
+dashboard-revenue-by-customer-modal.component,abstract-modal.component,extends
+dashboard-revenue-by-customer-modal.component,horizontal-bar-plot.component,html
+dashboard-spend-by-item.component,dashboard-spend-by-supplier-modal.component,onClick(event: IBarSample)
+dashboard-spend-by-item.component,horizontal-bar-plot.component,html
+dashboard-spend-by-supplier-modal.component,abstract-modal.component,extends
+dashboard-spend-by-supplier-modal.component,horizontal-bar-plot.component,html
+dashboard-analytics-sales-orders.component,modal-customers.component,onClickCustomers()
+dashboard-analytics-sales-orders.component,modal-sales-orders.component,onClickSalesOrders()
+dashboard-analytics-sales-orders.component,dashboard-skus-modal.component,onClickSKUs()
+dashboard-skus-modal.component,abstract-modal.component,extends
+dashboard-skus-modal.component,item-master-table.component,@ViewChild('table') table: ItemMasterTableComponent;)
+dashboard-skus-modal.component,item-master-table.component,html
+dashboard-skus-modal.component,item-master.component,html
+dashboard-spend-by-supplier.component,dashboard-spend-by-item-modal.component,onClick(event: IBarSample)
+dashboard-spend-by-supplier.component,horizontal-bar-plot.component,html
+dashboard-spend-by-item-modal.component,abstract-modal.component,extends
+dashboard-spend-by-item-modal.component,horizontal-bar-plot.component,html
+customer-master.component,customer-master-table.component,@ViewChild('table')
+customer-master.component,customer-master-table.component,html
+customer-master.component,abstract-job.component,extends
+customer-master.component,customer-master-modal-new.component,onShowModalNew()
+customer-master.component,customer-master-modal-new.component,onShowModalEdit(index: number)
+customer-master.component,modal-yes-no.component,onShowModalDelete(index: number)
+customer-master.component,ship-to-master-modal-move.component,onShowModalMoveShipTo(event: IEventChildRow)
+customer-master.component,job-progress.component,html
+customer-master-modal-new.component,modal-yes-no.component,onShowModalDeleteShipTo(i: number)
+customer-master-modal-new.component,auto-complete.component,html
+customer-master-modal-new.component,auto-complete.component,html
+customer-master-modal-new.component,auto-complete.component,html
+customer-master-modal-new.component,auto-complete.component,html
+customer-master-modal-new.component,auto-complete.component,html
+customer-master-modal-new.component,auto-complete.component,html
+customer-master-modal-new.component,auto-complete.component,html
+customer-master-modal-new.component,auto-complete.component,html
+customer-master-modal-new.component,auto-complete.component,html
+customer-master-table.component,collapse-table.component,@ViewChild('collapseTable')
+customer-master-table.component,collapse-table.component,html
+inventory-trend-matrix.component,inventory-trend-matrix-table.component,html
+inventory-trend-matrix.component,inventory.component,html
+inventory-trend-matrix-table.component,collapse-wide-table.component,@ViewChild('wideTable') wideTable: CollapseWideTableComponent;)
+inventory-trend-matrix-table.component,collapse-wide-table.component,html
+inventory-trend-matrix-table.component,tags-input.component,@ViewChild('tagsComponent')
+inventory-trend-matrix-table.component,tags-input.component,html
+inventory-trend-matrix-table.component,inventory-planning-modal-heatmap.component,onShowModalCalendar(index: number)
+inventory-trend-matrix-table.component,inventory-trend-matrix-modal-details.component,onClickCell(event: ICollapseWideTableClick)
+inventory-trend-matrix-table.component,modal-procurement-by-price.component,onShowModalSpendByItem(index: number)
+inventory-trend-matrix-table.component,modal-statistical-analysis.component,onShowModalStatistics(index: number)
+inventory-trend-matrix-table.component,modal-customer-item-number.component,Customer Item Number
+inventory-trend-matrix-table.component,modal-average-demand.component,onShowModalAverageDemand(index: number)
+inventory-trend-matrix-modal-details.component,sales-order-modal-details.component,Type
+inventory-trend-matrix-modal-details.component,purchase-order-modal-details.component,Type
+inventory-trend-matrix-modal-details.component,forecast-modal-details.component,Type
+inventory-trend-matrix-modal-details.component,manufacturing-order-modal-details.component,Type
+inventory-trend-matrix-modal-details.component,table.component,html
+dashboard-spend-analysis.component,tags-input.component,@ViewChild('tagsComponent')
+dashboard-spend-analysis.component,tags-input.component,html
+dashboard-spend-analysis.component,dashboard-spend-analysis-procurement-trend-by-item.component,html
+dashboard-spend-analysis.component,dashboard-spend-analysis-procurement-by-supplier.component,html
+dashboard-spend-analysis.component,dashboard-spend-analysis-procurement-by-item.component,html
+dashboard-spend-analysis.component,date-range-slider.component,html
+dashboard-spend-analysis-procurement-trend-by-item.component,dashboard-spend-analysis-procurement-trend-by-item-and-price-modal.component,onClick(event: IBarSample)
+dashboard-spend-analysis-procurement-trend-by-item.component,dashboard-trend-by-spend.component,html
+dashboard-spend-analysis-procurement-trend-by-item-and-price-modal.component,table.component,@ViewChild('table')
+dashboard-spend-analysis-procurement-trend-by-item-and-price-modal.component,table.component,html
+dashboard-spend-analysis-procurement-by-supplier.component,dashboard-spend-analysis-procurement-by-item-modal.component,onClick(event: IBarSample)
+dashboard-spend-analysis-procurement-by-supplier.component,horizontal-bar-plot.component,html
+dashboard-spend-analysis-procurement-by-item-modal.component,modal-procurement-by-price.component,onClick(event: IBarSample)
+dashboard-spend-analysis-procurement-by-item-modal.component,date-range-slider.component,html
+dashboard-spend-analysis-procurement-by-item-modal.component,horizontal-bar-plot.component,html
+dashboard-spend-analysis-procurement-by-item.component,modal-procurement-by-price.component,onClick(event: IBarSample)
+dashboard-spend-analysis-procurement-by-item.component,horizontal-bar-plot.component,html
+modal-sales-orders.component,abstract-modal.component,extends
+modal-sales-orders.component,sales-order-table.component,@ViewChild('table') table: SalesOrderTableComponent;)
+modal-sales-orders.component,sales-order-table.component,html
+modal-sales-orders.component,sales-order.component,html
+modal-suppliers.component,abstract-modal.component,extends
+modal-suppliers.component,supplier-master-table.component,@ViewChild('table') table: SupplierMasterTableComponent;)
+modal-suppliers.component,supplier-master-table.component,html
+modal-suppliers.component,supplier-master.component,html
+unit-master.component,unit-master-modal-new.component,@ViewChild('modalUnit')
+unit-master.component,unit-master-modal-new.component,html
+unit-master.component,table.component,@ViewChild('table')
+unit-master.component,table.component,html
+unit-master.component,abstract-job.component,extends
+unit-master.component,modal-yes-no.component,onShowModalDelete(index: number)
+unit-master.component,job-progress.component,html
 inventory-planning.component,inventory-planning-table.component,@ViewChild('table') table: InventoryPlanningTableComponent;)
 inventory-planning.component,inventory-planning-table.component,html
-inventory-planning.component,table.component,@ViewChild('table') table: InventoryPlanningTableComponent;)
 inventory-planning.component,inventory-planning-modal-heatmap.component,onShowModalCalendar(index: number)
 inventory-planning.component,modal-procurement-by-price.component,onShowModalSpendByItem(index: number)
 inventory-planning.component,modal-average-demand.component,onShowModalAlgorithm(index: number)
@@ -84,73 +367,6 @@ inventory-planning-table.component,purchase-order-modal-containing-item.componen
 inventory-planning-table.component,sales-order-modal-containing-item.component,SO List Quantity
 inventory-planning-table.component,modal-statistical-analysis.component,onShowModalStatistics(index: number)
 inventory-planning-table.component,modal-customer-item-number.component,Customer Item Number
-asn.component,abstract-job.component,extends
-asn.component,table.component,@ViewChild('collapseTable')
-asn.component,collapse-table.component,@ViewChild('collapseTable')
-asn.component,collapse-table.component,html
-asn.component,modal-yes-no.component,onClickDelete(event: number)
-asn.component,asn-modal-new.component,onClickEdit(event: number)
-asn.component,asn-modal-new.component,onClickNew()
-asn.component,job-progress.component,html
-asn-modal-new.component,modal-yes-no.component,onShowModalDeleteDetails(i: number)
-asn-modal-new.component,asn-modal-add-forecast.component,onAddForecast()
-asn-modal-new.component,forecast.component,onAddForecast()
-asn-modal-new.component,auto-complete.component,html
-asn-modal-add-forecast.component,abstract-modal.component,extends
-asn-modal-add-forecast.component,forecast-table.component,@ViewChild('table') table: ForecastTableComponent;)
-asn-modal-add-forecast.component,forecast-table.component,html
-asn-modal-add-forecast.component,table.component,@ViewChild('table') table: ForecastTableComponent;)
-purchase-order-archive.component,abstract-job.component,extends
-purchase-order-archive.component,purchase-order-modal-new.component,onShowModalEdit(index: number)
-purchase-order-archive.component,purchase-order-table.component,@ViewChild('table')
-purchase-order-archive.component,purchase-order-table.component,html
-purchase-order-archive.component,table.component,@ViewChild('table')
-purchase-order-archive.component,purchase-order.component,html
-purchase-order-archive.component,job-progress.component,html
-bill-of-materials.component,bill-of-materials-table.component,@ViewChild('table')
-bill-of-materials.component,bill-of-materials-table.component,html
-bill-of-materials.component,table.component,@ViewChild('table')
-bill-of-materials.component,abstract-job.component,extends
-bill-of-materials.component,modal-yes-no.component,onShowModalDelete(index: number)
-bill-of-materials.component,bill-of-materials-modal-new.component,openModalNew()
-bill-of-materials.component,job-progress.component,html
-bill-of-materials-modal-new.component,abstract-modal.component,extends
-bill-of-materials-modal-new.component,modal-yes-no.component,onShowModalDeleteDetail(i: number)
-bill-of-materials-modal-new.component,auto-complete.component,html
-bill-of-materials-modal-new.component,auto-complete.component,html
-bill-of-materials-modal-new.component,auto-complete.component,html
-bill-of-materials-modal-new.component,auto-complete.component,html
-bill-of-materials-modal-new.component,auto-complete.component,html
-bill-of-materials-table.component,collapse-table.component,@ViewChild('collapseTable')
-bill-of-materials-table.component,collapse-table.component,html
-dashboard-historical-transactions.component,tags-input.component,@ViewChild('tagsComponent') tagsComponent: TagsInputComponent;)
-dashboard-historical-transactions.component,tags-input.component,html
-dashboard-historical-transactions.component,customer-master-modal-new.component,Type
-dashboard-historical-transactions.component,sales-order-modal-details.component,Type
-dashboard-historical-transactions.component,supplier-master-modal-new.component,Type
-dashboard-historical-transactions.component,purchase-order-modal-details.component,Type
-dashboard-historical-transactions.component,table.component,html
-customer-master.component,customer-master-table.component,@ViewChild('table')
-customer-master.component,customer-master-table.component,html
-customer-master.component,table.component,@ViewChild('table')
-customer-master.component,abstract-job.component,extends
-customer-master.component,customer-master-modal-new.component,onShowModalNew()
-customer-master.component,customer-master-modal-new.component,onShowModalEdit(index: number)
-customer-master.component,modal-yes-no.component,onShowModalDelete(index: number)
-customer-master.component,ship-to-master-modal-move.component,onShowModalMoveShipTo(event: IEventChildRow)
-customer-master.component,job-progress.component,html
-customer-master-modal-new.component,modal-yes-no.component,onShowModalDeleteShipTo(i: number)
-customer-master-modal-new.component,auto-complete.component,html
-customer-master-modal-new.component,auto-complete.component,html
-customer-master-modal-new.component,auto-complete.component,html
-customer-master-modal-new.component,auto-complete.component,html
-customer-master-modal-new.component,auto-complete.component,html
-customer-master-modal-new.component,auto-complete.component,html
-customer-master-modal-new.component,auto-complete.component,html
-customer-master-modal-new.component,auto-complete.component,html
-customer-master-modal-new.component,auto-complete.component,html
-customer-master-table.component,collapse-table.component,@ViewChild('collapseTable')
-customer-master-table.component,collapse-table.component,html
 scenario-analysis.component,table.component,@ViewChild('table')
 scenario-analysis.component,table.component,html
 scenario-analysis.component,modal-yes-no.component,onShowModalDelete(index: number)
@@ -158,8 +374,6 @@ scenario-analysis.component,scenario-analysis-modal-new.component,onClickNewScen
 scenario-analysis.component,scenario-analysis-modal-impacted-procurement.component,Scenarios Impacted POs
 scenario-analysis.component,scenario-analysis-modal-total-procurement.component,Scenarios PO Count
 scenario-analysis.component,scenario-analysis-modal-impacted-forecast.component,Scenarios Impacted FOs
-scenario-analysis.component,forecast.component,Scenarios FO Count
-scenario-analysis.component,forecast.component,Scenarios FO Count
 scenario-analysis.component,scenario-analysis-modal-total-forecast.component,Scenarios FO Count
 scenario-analysis.component,scenario-analysis-modal-impacted-items.component,Scenarios Impacted Items
 scenario-analysis.component,scenario-analysis-modal-compare-trend-matrix.component,onClickCompareTrendMatrix(index: number)
@@ -167,85 +381,17 @@ scenario-analysis.component,scenario-analysis-modal-compare-planning.component,o
 scenario-analysis.component,scenario-analysis-modal-impacted-manufacturing.component,Scenarios Impacted MOs
 scenario-analysis.component,scenario-analysis-modal-total-manufacturing.component,Scenarios MO Count
 scenario-analysis.component,scenario-analysis-modal-impacted-inventory.component,Scenarios Impacted Inventories
-scenario-analysis.component,inventory.component,Scenarios Impacted Inventories
 scenario-analysis.component,scenario-analysis-modal-impacted-demand.component,Scenarios Impacted SOs
 scenario-analysis.component,scenario-analysis-modal-total-demand.component,Scenarios SO Count
 scenario-analysis.component,scenario-analysis-modal-compare-heatmap.component,onClickCompareHeatmap(index: number)
 scenario-analysis.component,scenario-analysis-modal-compare-at-risk.component,onClickCompareAtRisk(index: number)
-scenario-analysis-modal-total-procurement.component,purchase-order-table.component,@ViewChild('table') table: PurchaseOrderTableComponent;)
-scenario-analysis-modal-total-procurement.component,purchase-order-table.component,html
-scenario-analysis-modal-total-procurement.component,table.component,@ViewChild('table') table: PurchaseOrderTableComponent;)
-scenario-analysis-modal-total-procurement.component,purchase-order.component,html
-scenario-analysis-modal-impacted-manufacturing.component,table.component,@ViewChild('table')
-scenario-analysis-modal-impacted-manufacturing.component,collapse-table.component,@ViewChild('table')
-scenario-analysis-modal-impacted-manufacturing.component,collapse-table.component,html
-scenario-analysis-modal-new.component,scenario-analysis-tab-forecast.component,@ViewChild('tabForecast') tabForecast: ScenarioAnalysisTabForecastComponent;)
-scenario-analysis-modal-new.component,scenario-analysis-tab-forecast.component,html
-scenario-analysis-modal-new.component,forecast.component,@ViewChild('tabForecast') tabForecast: ScenarioAnalysisTabForecastComponent;)
-scenario-analysis-modal-new.component,scenario-analysis-tab-manufacturing.component,@ViewChild('tabManufacturing') tabManufacturing: ScenarioAnalysisTabManufacturingComponent;)
-scenario-analysis-modal-new.component,scenario-analysis-tab-manufacturing.component,html
-scenario-analysis-modal-new.component,scenario-analysis-tab-procurement.component,@ViewChild('tabProcurement') tabProcurement: ScenarioAnalysisTabProcurementComponent;)
-scenario-analysis-modal-new.component,scenario-analysis-tab-procurement.component,html
-scenario-analysis-modal-new.component,scenario-analysis-tab-inventory.component,@ViewChild('tabInventory') tabInventory: ScenarioAnalysisTabInventoryComponent;)
-scenario-analysis-modal-new.component,scenario-analysis-tab-inventory.component,html
-scenario-analysis-modal-new.component,inventory.component,@ViewChild('tabInventory') tabInventory: ScenarioAnalysisTabInventoryComponent;)
-scenario-analysis-modal-new.component,scenario-analysis-tab-demand.component,@ViewChild('tabDemand') tabDemand: ScenarioAnalysisTabDemandComponent;)
-scenario-analysis-modal-new.component,scenario-analysis-tab-demand.component,html
-scenario-analysis-modal-new.component,scenario-analysis.component,html
-scenario-analysis-modal-new.component,scenario-analysis.component,html
-scenario-analysis-modal-new.component,scenario-analysis.component,html
-scenario-analysis-modal-new.component,scenario-analysis.component,html
-scenario-analysis-modal-new.component,scenario-analysis.component,html
-scenario-analysis-modal-new.component,scenario-analysis.component,html
-scenario-analysis-modal-new.component,scenario-analysis-tab-summary.component,html
-scenario-analysis-tab-forecast.component,forecast-table.component,@ViewChild('table') table: ForecastTableComponent;)
-scenario-analysis-tab-forecast.component,forecast-table.component,html
-scenario-analysis-tab-forecast.component,table.component,@ViewChild('table') table: ForecastTableComponent;)
-scenario-analysis-tab-forecast.component,scenario-analysis-modal-forecast.component,private showScenarioModal()
-scenario-analysis-tab-demand.component,sales-order-table.component,@ViewChild('table') table: SalesOrderTableComponent;)
-scenario-analysis-tab-demand.component,sales-order-table.component,html
-scenario-analysis-tab-demand.component,table.component,@ViewChild('table') table: SalesOrderTableComponent;)
-scenario-analysis-tab-demand.component,scenario-analysis-modal-demand.component,private showScenarioModal()
-scenario-analysis-tab-demand.component,sales-order.component,html
-scenario-analysis-tab-inventory.component,inventory-table.component,@ViewChild('table') table: InventoryTableComponent;)
-scenario-analysis-tab-inventory.component,inventory-table.component,html
-scenario-analysis-tab-inventory.component,table.component,@ViewChild('table') table: InventoryTableComponent;)
-scenario-analysis-tab-inventory.component,scenario-analysis-modal-inventory.component,private showScenarioModal()
-scenario-analysis-tab-summary.component,modal-yes-no.component,onClickDelete(source: string, index: number)
-scenario-analysis-tab-summary.component,modal-yes-no.component,onClickBulkDelete(source: string, index: Array<number>)
-scenario-analysis-tab-summary.component,scenario-analysis-modal-procurement.component,Procurement
-scenario-analysis-tab-summary.component,scenario-analysis-modal-forecast.component,Forecast
-scenario-analysis-tab-summary.component,forecast.component,Forecast
-scenario-analysis-tab-summary.component,scenario-analysis-modal-manufacturing.component,Manufacturing
-scenario-analysis-tab-summary.component,scenario-analysis-modal-demand.component,Demand
-scenario-analysis-tab-summary.component,scenario-analysis-modal-inventory.component,Inventory
-scenario-analysis-tab-summary.component,inventory.component,Inventory
-scenario-analysis-tab-summary.component,table.component,html
-scenario-analysis-tab-summary.component,table.component,html
-scenario-analysis-tab-summary.component,table.component,html
-scenario-analysis-tab-summary.component,table.component,html
-scenario-analysis-tab-summary.component,table.component,html
-scenario-analysis-tab-procurement.component,purchase-order-table.component,@ViewChild('table') table: PurchaseOrderTableComponent;)
-scenario-analysis-tab-procurement.component,purchase-order-table.component,html
-scenario-analysis-tab-procurement.component,table.component,@ViewChild('table') table: PurchaseOrderTableComponent;)
-scenario-analysis-tab-procurement.component,scenario-analysis-modal-procurement.component,private showScenarioModal()
-scenario-analysis-tab-procurement.component,purchase-order.component,html
-scenario-analysis-tab-manufacturing.component,manufacturing-order-table.component,@ViewChild('table') table: ManufacturingOrderTableComponent;)
-scenario-analysis-tab-manufacturing.component,manufacturing-order-table.component,html
-scenario-analysis-tab-manufacturing.component,table.component,@ViewChild('table') table: ManufacturingOrderTableComponent;)
-scenario-analysis-tab-manufacturing.component,scenario-analysis-modal-manufacturing.component,private showScenarioModal()
-scenario-analysis-tab-manufacturing.component,manufacturing-order.component,html
-scenario-analysis-modal-impacted-items.component,table.component,@ViewChild('table')
-scenario-analysis-modal-impacted-items.component,table.component,html
-scenario-analysis-modal-impacted-forecast.component,table.component,@ViewChild('table')
-scenario-analysis-modal-impacted-forecast.component,collapse-table.component,@ViewChild('table')
-scenario-analysis-modal-impacted-forecast.component,collapse-table.component,html
-scenario-analysis-modal-impacted-demand.component,table.component,@ViewChild('table')
+scenario-analysis-modal-total-demand.component,sales-order-table.component,@ViewChild('table') table: SalesOrderTableComponent;)
+scenario-analysis-modal-total-demand.component,sales-order-table.component,html
+scenario-analysis-modal-total-demand.component,sales-order.component,html
 scenario-analysis-modal-impacted-demand.component,collapse-table.component,@ViewChild('table')
 scenario-analysis-modal-impacted-demand.component,collapse-table.component,html
-scenario-analysis-modal-impacted-inventory.component,table.component,@ViewChild('table')
-scenario-analysis-modal-impacted-inventory.component,collapse-table.component,@ViewChild('table')
-scenario-analysis-modal-impacted-inventory.component,collapse-table.component,html
+scenario-analysis-modal-impacted-manufacturing.component,collapse-table.component,@ViewChild('table')
+scenario-analysis-modal-impacted-manufacturing.component,collapse-table.component,html
 scenario-analysis-modal-compare-at-risk.component,tags-input.component,@ViewChild('tagsComponent') tagsComponent: TagsInputComponent;)
 scenario-analysis-modal-compare-at-risk.component,tags-input.component,html
 scenario-analysis-modal-compare-at-risk.component,dashboard-sales-at-risk.component,html
@@ -256,44 +402,322 @@ scenario-analysis-modal-compare-at-risk.component,dashboard-sales-at-risk-analyt
 scenario-analysis-modal-compare-at-risk.component,dashboard-sales-at-risk-analytics.component,html
 scenario-analysis-modal-compare-at-risk.component,dashboard-sales-at-risk-table-view.component,html
 scenario-analysis-modal-compare-at-risk.component,dashboard-sales-at-risk-table-view.component,html
-scenario-analysis-modal-compare-planning.component,inventory-planning-table.component,@ViewChild('table')
-scenario-analysis-modal-compare-planning.component,inventory-planning-table.component,html
-scenario-analysis-modal-compare-planning.component,table.component,@ViewChild('table')
-scenario-analysis-modal-compare-planning.component,inventory-planning.component,html
-scenario-analysis-modal-compare-planning.component,inventory.component,html
-scenario-analysis-modal-total-forecast.component,forecast-table.component,@ViewChild('table') table: ForecastTableComponent;)
-scenario-analysis-modal-total-forecast.component,forecast-table.component,html
-scenario-analysis-modal-total-forecast.component,table.component,@ViewChild('table') table: ForecastTableComponent;)
-scenario-analysis-modal-impacted-procurement.component,table.component,@ViewChild('table')
-scenario-analysis-modal-impacted-procurement.component,collapse-table.component,@ViewChild('table')
-scenario-analysis-modal-impacted-procurement.component,collapse-table.component,html
-scenario-analysis-modal-total-manufacturing.component,manufacturing-order-table.component,@ViewChild('table') table: ManufacturingOrderTableComponent;)
-scenario-analysis-modal-total-manufacturing.component,manufacturing-order-table.component,html
-scenario-analysis-modal-total-manufacturing.component,table.component,@ViewChild('table') table: ManufacturingOrderTableComponent;)
-scenario-analysis-modal-total-manufacturing.component,manufacturing-order.component,html
-scenario-analysis-modal-total-demand.component,sales-order-table.component,@ViewChild('table') table: SalesOrderTableComponent;)
-scenario-analysis-modal-total-demand.component,sales-order-table.component,html
-scenario-analysis-modal-total-demand.component,table.component,@ViewChild('table') table: SalesOrderTableComponent;)
-scenario-analysis-modal-total-demand.component,sales-order.component,html
 scenario-analysis-modal-compare-heatmap.component,tags-input.component,@ViewChild('tagsComponent')
 scenario-analysis-modal-compare-heatmap.component,tags-input.component,html
 scenario-analysis-modal-compare-heatmap.component,dashboard-heatmap-items-modal.component,onClickCell(event: string)
 scenario-analysis-modal-compare-heatmap.component,dashboard-heatmap-items-modal.component,onClickScenarioCell(event: string)
 scenario-analysis-modal-compare-heatmap.component,calendar-heatmap.component,html
 scenario-analysis-modal-compare-heatmap.component,calendar-heatmap.component,html
+scenario-analysis-modal-impacted-procurement.component,collapse-table.component,@ViewChild('table')
+scenario-analysis-modal-impacted-procurement.component,collapse-table.component,html
+scenario-analysis-modal-impacted-forecast.component,collapse-table.component,@ViewChild('table')
+scenario-analysis-modal-impacted-forecast.component,collapse-table.component,html
+scenario-analysis-modal-impacted-items.component,table.component,@ViewChild('table')
+scenario-analysis-modal-impacted-items.component,table.component,html
+scenario-analysis-modal-compare-planning.component,inventory-planning-table.component,@ViewChild('table')
+scenario-analysis-modal-compare-planning.component,inventory-planning-table.component,html
+scenario-analysis-modal-compare-planning.component,inventory-planning.component,html
+scenario-analysis-modal-compare-planning.component,inventory.component,html
+scenario-analysis-modal-total-procurement.component,purchase-order-table.component,@ViewChild('table') table: PurchaseOrderTableComponent;)
+scenario-analysis-modal-total-procurement.component,purchase-order-table.component,html
+scenario-analysis-modal-total-procurement.component,purchase-order.component,html
+scenario-analysis-modal-total-forecast.component,forecast-table.component,@ViewChild('table') table: ForecastTableComponent;)
+scenario-analysis-modal-total-forecast.component,forecast-table.component,html
+scenario-analysis-modal-new.component,scenario-analysis-tab-forecast.component,@ViewChild('tabForecast') tabForecast: ScenarioAnalysisTabForecastComponent;)
+scenario-analysis-modal-new.component,scenario-analysis-tab-forecast.component,html
+scenario-analysis-modal-new.component,scenario-analysis-tab-manufacturing.component,@ViewChild('tabManufacturing') tabManufacturing: ScenarioAnalysisTabManufacturingComponent;)
+scenario-analysis-modal-new.component,scenario-analysis-tab-manufacturing.component,html
+scenario-analysis-modal-new.component,scenario-analysis-tab-procurement.component,@ViewChild('tabProcurement') tabProcurement: ScenarioAnalysisTabProcurementComponent;)
+scenario-analysis-modal-new.component,scenario-analysis-tab-procurement.component,html
+scenario-analysis-modal-new.component,scenario-analysis-tab-inventory.component,@ViewChild('tabInventory') tabInventory: ScenarioAnalysisTabInventoryComponent;)
+scenario-analysis-modal-new.component,scenario-analysis-tab-inventory.component,html
+scenario-analysis-modal-new.component,scenario-analysis-tab-demand.component,@ViewChild('tabDemand') tabDemand: ScenarioAnalysisTabDemandComponent;)
+scenario-analysis-modal-new.component,scenario-analysis-tab-demand.component,html
+scenario-analysis-modal-new.component,scenario-analysis.component,html
+scenario-analysis-modal-new.component,scenario-analysis.component,html
+scenario-analysis-modal-new.component,scenario-analysis.component,html
+scenario-analysis-modal-new.component,scenario-analysis.component,html
+scenario-analysis-modal-new.component,scenario-analysis.component,html
+scenario-analysis-modal-new.component,scenario-analysis.component,html
+scenario-analysis-modal-new.component,scenario-analysis-tab-summary.component,html
+scenario-analysis-tab-demand.component,sales-order-table.component,@ViewChild('table') table: SalesOrderTableComponent;)
+scenario-analysis-tab-demand.component,sales-order-table.component,html
+scenario-analysis-tab-demand.component,scenario-analysis-modal-demand.component,private showScenarioModal()
+scenario-analysis-tab-demand.component,sales-order.component,html
+scenario-analysis-tab-forecast.component,forecast-table.component,@ViewChild('table') table: ForecastTableComponent;)
+scenario-analysis-tab-forecast.component,forecast-table.component,html
+scenario-analysis-tab-forecast.component,scenario-analysis-modal-forecast.component,private showScenarioModal()
+scenario-analysis-tab-procurement.component,purchase-order-table.component,@ViewChild('table') table: PurchaseOrderTableComponent;)
+scenario-analysis-tab-procurement.component,purchase-order-table.component,html
+scenario-analysis-tab-procurement.component,scenario-analysis-modal-procurement.component,private showScenarioModal()
+scenario-analysis-tab-procurement.component,purchase-order.component,html
+scenario-analysis-tab-manufacturing.component,manufacturing-order-table.component,@ViewChild('table') table: ManufacturingOrderTableComponent;)
+scenario-analysis-tab-manufacturing.component,manufacturing-order-table.component,html
+scenario-analysis-tab-manufacturing.component,scenario-analysis-modal-manufacturing.component,private showScenarioModal()
+scenario-analysis-tab-manufacturing.component,manufacturing-order.component,html
+scenario-analysis-tab-summary.component,modal-yes-no.component,onClickDelete(source: string, index: number)
+scenario-analysis-tab-summary.component,modal-yes-no.component,onClickBulkDelete(source: string, index: Array<number>)
+scenario-analysis-tab-summary.component,scenario-analysis-modal-procurement.component,Procurement
+scenario-analysis-tab-summary.component,scenario-analysis-modal-forecast.component,Forecast
+scenario-analysis-tab-summary.component,scenario-analysis-modal-manufacturing.component,Manufacturing
+scenario-analysis-tab-summary.component,scenario-analysis-modal-demand.component,Demand
+scenario-analysis-tab-summary.component,scenario-analysis-modal-inventory.component,Inventory
+scenario-analysis-tab-summary.component,table.component,html
+scenario-analysis-tab-summary.component,table.component,html
+scenario-analysis-tab-summary.component,table.component,html
+scenario-analysis-tab-summary.component,table.component,html
+scenario-analysis-tab-summary.component,table.component,html
+scenario-analysis-tab-inventory.component,inventory-table.component,@ViewChild('table') table: InventoryTableComponent;)
+scenario-analysis-tab-inventory.component,inventory-table.component,html
+scenario-analysis-tab-inventory.component,scenario-analysis-modal-inventory.component,private showScenarioModal()
+scenario-analysis-modal-total-manufacturing.component,manufacturing-order-table.component,@ViewChild('table') table: ManufacturingOrderTableComponent;)
+scenario-analysis-modal-total-manufacturing.component,manufacturing-order-table.component,html
+scenario-analysis-modal-total-manufacturing.component,manufacturing-order.component,html
+scenario-analysis-modal-impacted-inventory.component,collapse-table.component,@ViewChild('table')
+scenario-analysis-modal-impacted-inventory.component,collapse-table.component,html
+dashboard-delayed-shipments.component,purchase-order-table.component,@ViewChild('table')
+dashboard-delayed-shipments.component,purchase-order-table.component,html
+dashboard-delayed-shipments.component,purchase-order.component,html
+admin-users.component,table.component,@ViewChild('table')
+admin-users.component,table.component,html
+admin-users.component,modal-yes-no.component,onShowModalDelete(index: number)
+admin-users.component,admin-users-modal-new.component,openModalNew()
+admin-users.component,admin-roles-modal-new.component,Role Name
+dashboard-sales-performance.component,tags-input.component,@ViewChild('tagsComponent')
+dashboard-sales-performance.component,tags-input.component,html
+dashboard-sales-performance.component,sales-performance-on-time-over-time.component,html
+dashboard-sales-performance.component,sales-performance-order-per-delivery-date.component,html
+dashboard-sales-performance.component,sales-performance-graph-lines.component,html
+dashboard-sales-performance.component,sales-performance-lead-time-histogram.component,html
+dashboard-sales-performance.component,sales-performance-days-late.component,html
+dashboard-sales-performance.component,sales-performance-days-late.component,html
+dashboard-sales-performance.component,performance-orders.component,html
+dashboard-sales-performance.component,performance-orders.component,html
+dashboard-sales-performance.component,three-dots-menu.component,html
+sales-performance-on-time-over-time.component,modal-table.component,On Time
+sales-performance-on-time-over-time.component,vertical-stacked-bar-plot.component,html
+sales-performance-order-per-delivery-date.component,modal-table.component,onClick(event: IBarSample)
+sales-performance-order-per-delivery-date.component,vertical-bar-plot.component,html
+sales-performance-graph-lines.component,modal-table.component,On Time
+sales-performance-graph-lines.component,modal-table.component,Late
+sales-performance-graph-lines.component,modal-table.component,Not Commited
+sales-performance-graph-lines.component,modal-table.component,Other
+sales-performance-graph-lines.component,vertical-bar-plot.component,html
+sales-performance-lead-time-histogram.component,modal-table.component,onClick(event: IBarSample)
+sales-performance-lead-time-histogram.component,vertical-bar-plot.component,html
+sales-performance-days-late.component,modal-table.component,onClick(event: IBarSample)
+sales-performance-days-late.component,horizontal-bar-plot.component,html
+modal-statistical-analysis.component,tags-input.component,@ViewChild('tagsComponent')
+modal-statistical-analysis.component,tags-input.component,html
+modal-statistical-analysis.component,demand-statistical-analysis.component,html
+modal-statistical-analysis.component,supply-statistical-analysis.component,html
+modal-statistical-analysis.component,date-range-slider.component,html
+modal-statistical-analysis.component,table.component,html
+modal-statistical-analysis.component,three-dots-menu.component,html
+modal-total-suppliers.component,horizontal-bar-plot.component,@ViewChild('leadTimePlot') leadTimePlot: HorizontalBarPlotComponent;)
+modal-total-suppliers.component,horizontal-bar-plot.component,@ViewChild('valuePlot') valuePlot: HorizontalBarPlotComponent;)
+modal-total-suppliers.component,horizontal-bar-plot.component,html
+modal-total-suppliers.component,horizontal-bar-plot.component,html
+modal-total-suppliers.component,modal-purchase-orders.component,onClick(event: IBarSample)
+demand-statistical-analysis.component,modal-sales-orders.component,onClickSalesOrders()
+demand-statistical-analysis.component,modal-total-customers.component,onClickCustomers()
+demand-statistical-analysis.component,modal-average-demand.component,onClickAverageDemand()
+demand-statistical-analysis.component,modal-demand-histogram.component,onClickDemandHistogram()
+modal-total-customers.component,modal-sales-orders.component,onClick(event: IBarSample)
+modal-total-customers.component,horizontal-bar-plot.component,html
+modal-average-lead-time.component,modal-lead-time-histogram.component,onClick(event: IBarSample)
+modal-average-lead-time.component,horizontal-bar-plot.component,html
+modal-average-demand.component,modal-sales-orders.component,onClick(event: IBarSample)
+modal-average-demand.component,vertical-bar-plot.component,html
+supply-statistical-analysis.component,modal-purchase-orders.component,onClickPurchaseOrders()
+supply-statistical-analysis.component,modal-purchase-orders.component,onClickMaxLeadTime()
+supply-statistical-analysis.component,modal-purchase-orders.component,onClickMinLeadTime()
+supply-statistical-analysis.component,modal-total-suppliers.component,onClickSuppliers()
+supply-statistical-analysis.component,modal-lead-time-histogram.component,onClickLeadTimeHistogram()
+supply-statistical-analysis.component,modal-average-lead-time.component,onClickAverageLeadTime()
+sales-order.component,sales-order-table.component,@ViewChild('table')
+sales-order.component,sales-order-table.component,html
+sales-order.component,abstract-job.component,extends
+sales-order.component,modal-yes-no.component,onShowModalDelete(index: number)
+sales-order.component,sales-order-modal-new.component,onShowModalEdit(index: number)
+sales-order.component,sales-order-modal-new.component,onShowModalNew()
+sales-order.component,job-progress.component,html
+sales-order-modal-details.component,table.component,@ViewChild('table')
+sales-order-modal-details.component,table.component,html
+sales-order-modal-details.component,table.component,html
+sales-order-modal-details.component,abstract-modal.component,extends
+sales-order-modal-details.component,customer-master-modal-new.component,Customer Name + Customer Number
+sales-order-modal-details.component,manufacturing-order-modal-bom.component,Item Number + Item Description
+sales-order-modal-details.component,modal-prioritized-item-inventory.component,const modalRef = this.modalSerivce.open(
+sales-order-modal-containing-item.component,table.component,@ViewChild('table')
+sales-order-modal-containing-item.component,table.component,html
+sales-order-modal-containing-item.component,table.component,html
+sales-order-modal-containing-item.component,sales-order-modal-details.component,Sales Order
+sales-order-modal-containing-item.component,customer-master-modal-new.component,Customer Name + Customer Number
+sales-order-modal-containing-item.component,modal-prioritized-item-inventory.component,const modalRef = this.modalService.open(
+sales-order-table.component,modal-prioritized-item-inventory.component,const modalRef = this.modalService.open(
+sales-order-table.component,collapse-table.component,@ViewChild('collapseTable')
+sales-order-table.component,collapse-table.component,html
+sales-order-table.component,tags-input.component,@Input() tagsComponentExternal
+sales-order-table.component,customer-master-modal-new.component,Customer Name + Customer Number
+sales-order-table.component,warehouse-master-modal-new.component,Warehouse Number + Warehouse Name
+sales-order-table.component,sales-order-modal-containing-item.component,Item Number + Item Description
+sales-order-table.component,sales-order-modal-details.component,Sales Order
+sales-order-modal-new.component,modal-yes-no.component,onShowModalDeleteDetail(i: number)
+sales-order-modal-new.component,auto-complete.component,html
+sales-order-modal-new.component,auto-complete.component,html
+sales-order-modal-new.component,auto-complete.component,html
+sales-order-modal-new.component,auto-complete.component,html
+sales-order-modal-new.component,auto-complete.component,html
+sales-order-modal-new.component,auto-complete.component,html
+modal-customer-item-number.component,abstract-modal.component,extends
+dashboard-historical-transactions.component,tags-input.component,@ViewChild('tagsComponent') tagsComponent: TagsInputComponent;)
+dashboard-historical-transactions.component,tags-input.component,html
+dashboard-historical-transactions.component,customer-master-modal-new.component,Type
+dashboard-historical-transactions.component,sales-order-modal-details.component,Type
+dashboard-historical-transactions.component,supplier-master-modal-new.component,Type
+dashboard-historical-transactions.component,purchase-order-modal-details.component,Type
+dashboard-historical-transactions.component,table.component,html
 warehouse-master.component,warehouse-master-table.component,@ViewChild('table') table: WarehouseMasterTableComponent;)
 warehouse-master.component,warehouse-master-table.component,html
-warehouse-master.component,table.component,@ViewChild('table') table: WarehouseMasterTableComponent;)
 warehouse-master.component,abstract-job.component,extends
 warehouse-master.component,warehouse-master-modal-new.component,onShowModalNew()
 warehouse-master.component,warehouse-master-modal-new.component,onShowModalEdit(index: number)
 warehouse-master.component,modal-yes-no.component,onShowModalDelete(index: number)
 warehouse-master.component,job-progress.component,html
-modal-sales-orders.component,abstract-modal.component,extends
-modal-sales-orders.component,sales-order-table.component,@ViewChild('table') table: SalesOrderTableComponent;)
-modal-sales-orders.component,sales-order-table.component,html
-modal-sales-orders.component,table.component,@ViewChild('table') table: SalesOrderTableComponent;)
-modal-sales-orders.component,sales-order.component,html
+inventory.component,inventory-table.component,@ViewChild('table')
+inventory.component,inventory-table.component,html
+inventory.component,abstract-job.component,extends
+inventory.component,modal-yes-no.component,onShowModalDelete(index: number)
+inventory.component,inventory-modal-new.component,openModalNew()
+inventory.component,job-progress.component,html
+inventory-modal-new.component,modal-yes-no.component,onClearItem()
+inventory-modal-new.component,modal-yes-no.component,onShowModalDeleteInventory(i: number)
+inventory-modal-new.component,auto-complete.component,html
+inventory-modal-new.component,auto-complete.component,html
+inventory-modal-new.component,auto-complete.component,html
+inventory-table.component,collapse-table.component,@ViewChild('table')
+inventory-table.component,collapse-table.component,html
+inventory-table.component,purchase-order-modal-containing-item.component,Inventory Supply Quantity
+inventory-modal-containing-item.component,table.component,@ViewChild('table')
+inventory-modal-containing-item.component,table.component,html
+inventory-modal-containing-item.component,table.component,html
+modal-customers.component,abstract-modal.component,extends
+modal-customers.component,customer-master-table.component,@ViewChild('table') table: CustomerMasterTableComponent;)
+modal-customers.component,customer-master-table.component,html
+modal-customers.component,customer-master.component,html
+asn.component,abstract-job.component,extends
+asn.component,collapse-table.component,@ViewChild('collapseTable')
+asn.component,collapse-table.component,html
+asn.component,modal-yes-no.component,onClickDelete(event: number)
+asn.component,asn-modal-new.component,onClickEdit(event: number)
+asn.component,asn-modal-new.component,onClickNew()
+asn.component,job-progress.component,html
+asn-modal-new.component,modal-yes-no.component,onShowModalDeleteDetails(i: number)
+asn-modal-new.component,asn-modal-add-forecast.component,onAddForecast()
+asn-modal-new.component,auto-complete.component,html
+asn-modal-add-forecast.component,abstract-modal.component,extends
+asn-modal-add-forecast.component,forecast-table.component,@ViewChild('table') table: ForecastTableComponent;)
+asn-modal-add-forecast.component,forecast-table.component,html
+item-master.component,item-master-table.component,@ViewChild('table') table: ItemMasterTableComponent;)
+item-master.component,item-master-table.component,html
+item-master.component,abstract-job.component,extends
+item-master.component,modal-yes-no.component,onShowModalDelete(index: number)
+item-master.component,item-master-modal-new.component,openModalNew()
+item-master.component,sub-item-master-modal-move.component,@ViewChild('modalMove')
+item-master.component,sub-item-master-modal-move.component,onShowModalMoveSubItem(event: IEventChildRow)
+item-master.component,job-progress.component,html
+item-master-table.component,collapse-table.component,@ViewChild('collapseTable')
+item-master-table.component,collapse-table.component,html
+item-master-modal-new.component,auto-complete.component,@ViewChild('autoCompleteItemType')
+item-master-modal-new.component,auto-complete.component,@ViewChild('subItemNumberAutocomplete')
+item-master-modal-new.component,auto-complete.component,html
+item-master-modal-new.component,auto-complete.component,html
+item-master-modal-new.component,auto-complete.component,html
+item-master-modal-new.component,auto-complete.component,html
+item-master-modal-new.component,auto-complete.component,html
+item-master-modal-new.component,modal-yes-no.component,onShowModalDeleteSubItem(i: number)
+sub-item-master-modal-move.component,auto-complete.component,html
+sub-item-master-modal-move.component,auto-complete.component,html
+sub-item-master-modal-move.component,auto-complete.component,html
+modal-ending-inventory.component,table.component,@ViewChild('table')
+modal-ending-inventory.component,table.component,html
+modal-ending-inventory.component,forecast-modal-details.component,Ending Inventory Document Type
+modal-ending-inventory.component,manufacturing-order-modal-details.component,Ending Inventory Document Type
+modal-ending-inventory.component,purchase-order-modal-details.component,Ending Inventory Document Type
+modal-ending-inventory.component,sales-order-modal-details.component,Ending Inventory Document Type
+admin-billing.component,table.component,@ViewChild('table')
+admin-billing.component,table.component,html
+manufacturing-order-archive.component,manufacturing-order-modal-new.component,onShowModalEdit(index: number)
+manufacturing-order-archive.component,manufacturing-order-table.component,@ViewChild('table')
+manufacturing-order-archive.component,manufacturing-order-table.component,html
+manufacturing-order-archive.component,manufacturing-order.component,html
+issue-tracker.component,table.component,@ViewChild('table')
+issue-tracker.component,table.component,html
+issue-tracker.component,modal-yes-no.component,onShowModalDelete(index: number)
+issue-tracker.component,issue-tracker-modal-new.component,openModalNew()
+issue-tracker-note.component,modal-yes-no.component,onClickDelete()
+transactions-flow.component,collapse-wide-table.component,@ViewChild('wideTable') wideTable: CollapseWideTableComponent;)
+transactions-flow.component,collapse-wide-table.component,html
+transactions-flow.component,tags-input.component,@ViewChild('tagsComponent')
+transactions-flow.component,tags-input.component,html
+transactions-flow.component,inventory-planning-modal-heatmap.component,onShowModalCalendar(index: number)
+transactions-flow.component,transactions-flow-modal-details.component,onClickCell(event: ICollapseWideTableClick)
+transactions-flow.component,modal-procurement-by-price.component,onShowModalSpendByItem(index: number)
+transactions-flow.component,modal-statistical-analysis.component,onShowModalStatistics(index: number)
+transactions-flow.component,modal-customer-item-number.component,Customer Item Number
+transactions-flow.component,modal-average-demand.component,onShowModalAverageDemand(index: number)
+transactions-flow-modal-details.component,forecast-modal-details.component,Type
+transactions-flow-modal-details.component,manufacturing-order-modal-details.component,Type
+transactions-flow-modal-details.component,purchase-order-modal-details.component,Type
+transactions-flow-modal-details.component,sales-order-modal-details.component,Type
+transactions-flow-modal-details.component,table.component,html
+dashboard-inventory-planning.component,tags-input.component,@ViewChild('tagsComponent') tagsComponent: TagsInputComponent;)
+dashboard-inventory-planning.component,tags-input.component,html
+dashboard-inventory-planning.component,chart.component,html
+manufacturing-order.component,manufacturing-order-table.component,@ViewChild('table')
+manufacturing-order.component,manufacturing-order-table.component,html
+manufacturing-order.component,manufacturing-order-modal-new.component,onShowModalNew()
+manufacturing-order.component,manufacturing-order-modal-new.component,onShowModalEdit(index: number)
+manufacturing-order.component,modal-yes-no.component,onShowModalDelete(index: number)
+manufacturing-order.component,abstract-job.component,extends
+manufacturing-order.component,job-progress.component,html
+manufacturing-order-modal-containing-item.component,table.component,@ViewChild('table')
+manufacturing-order-modal-containing-item.component,table.component,html
+manufacturing-order-modal-containing-item.component,table.component,html
+manufacturing-order-modal-containing-item.component,manufacturing-order-modal-details.component,Manufacturing Order
+manufacturing-order-table.component,collapse-table.component,@ViewChild('collapseTable')
+manufacturing-order-table.component,collapse-table.component,html
+manufacturing-order-table.component,warehouse-master-modal-new.component,Warehouse Number
+manufacturing-order-table.component,manufacturing-order-modal-bom.component,Item Number + Item Description
+manufacturing-order-table.component,manufacturing-order-modal-details.component,Manufacturing Order
+manufacturing-order-modal-new.component,abstract-modal.component,extends
+manufacturing-order-modal-new.component,modal-yes-no.component,onShowModalDeleteDetail(i: number)
+manufacturing-order-modal-new.component,auto-complete.component,html
+manufacturing-order-modal-new.component,auto-complete.component,html
+manufacturing-order-modal-new.component,auto-complete.component,html
+manufacturing-order-modal-new.component,auto-complete.component,html
+manufacturing-order-modal-new.component,auto-complete.component,html
+manufacturing-order-modal-details.component,abstract-modal.component,extends
+manufacturing-order-modal-details.component,table.component,@ViewChild('table')
+manufacturing-order-modal-details.component,table.component,html
+manufacturing-order-modal-details.component,table.component,html
+manufacturing-order-modal-details.component,manufacturing-order-modal-bom.component,Item Number + Item Description
+manufacturing-order-modal-bom.component,abstract-modal.component,extends
+manufacturing-order-modal-bom.component,table.component,@ViewChild('table')
+manufacturing-order-modal-bom.component,table.component,html
+manufacturing-order-modal-bom.component,table.component,html
+manufacturing-order-modal-bom.component,inventory-modal-containing-item.component,Inventory Details Quantity
+manufacturing-order-modal-bom.component,purchase-order-modal-containing-item.component,PO List Quantity
+manufacturing-order-modal-bom.component,manufacturing-order-modal-containing-item.component,MO Total Quantity Scheduled
+manufacturing-order-modal-bom.component,sales-order-modal-containing-item.component,SO List Quantity
+manufacturing-order-modal-bom.component,forecast-modal-containing-item.component,FO List Quantity
+dashboard-world-map.component,dashboard-world-map-modal-procurement.component,EnumWorldMapMarker.Supplier
+dashboard-world-map.component,dashboard-world-map-modal-demand.component,EnumWorldMapMarker.Customer
+dashboard-world-map.component,dashboard-world-map-modal-inventory.component,EnumWorldMapMarker.Warehouse
+views-share-modal.component,abstract-modal.component,extends
+views-share-modal.component,modal-yes-no.component,onClickDelete(sharedUser: IViewsSharedUser, index: number)
+views-share-modal.component,auto-complete.component,html
 admin-settings.component,admin-settings-integrations.component,@ViewChild('integrations') integrations: AdminSettingsIntegrationsComponent;)
 admin-settings.component,admin-settings-integrations.component,html
 admin-settings.component,modal-danger-yes-no.component,onReset()
@@ -309,551 +733,89 @@ admin-settings-integrations.component,admin-settings.component,html
 admin-settings-integrations.component,admin-settings.component,html
 admin-settings-integrations.component,admin-settings.component,html
 admin-settings-integrations.component,admin-settings.component,html
-transactions-flow.component,collapse-wide-table.component,@ViewChild('wideTable') wideTable: CollapseWideTableComponent;)
-transactions-flow.component,collapse-wide-table.component,html
-transactions-flow.component,table.component,@ViewChild('wideTable') wideTable: CollapseWideTableComponent;)
-transactions-flow.component,tags-input.component,@ViewChild('tagsComponent')
-transactions-flow.component,tags-input.component,html
-transactions-flow.component,inventory-planning-modal-heatmap.component,onShowModalCalendar(index: number)
-transactions-flow.component,transactions-flow-modal-details.component,onClickCell(event: ICollapseWideTableClick)
-transactions-flow.component,modal-procurement-by-price.component,onShowModalSpendByItem(index: number)
-transactions-flow.component,modal-statistical-analysis.component,onShowModalStatistics(index: number)
-transactions-flow.component,modal-customer-item-number.component,Customer Item Number
-transactions-flow.component,modal-average-demand.component,onShowModalAverageDemand(index: number)
-transactions-flow-modal-details.component,forecast-modal-details.component,Type
-transactions-flow-modal-details.component,manufacturing-order-modal-details.component,Type
-transactions-flow-modal-details.component,purchase-order-modal-details.component,Type
-transactions-flow-modal-details.component,sales-order-modal-details.component,Type
-transactions-flow-modal-details.component,table.component,html
-purchase-order.component,purchase-order-table.component,@ViewChild('table')
-purchase-order.component,purchase-order-table.component,html
-purchase-order.component,table.component,@ViewChild('table')
-purchase-order.component,abstract-job.component,extends
-purchase-order.component,modal-yes-no.component,onShowModalDelete(index: number)
-purchase-order.component,purchase-order-modal-new.component,onShowModalNew()
-purchase-order.component,purchase-order-modal-new.component,onShowModalEdit(index: number)
-purchase-order.component,job-progress.component,html
-purchase-order-modal-new.component,modal-yes-no.component,onShowModalDeleteDetail(i: number)
-purchase-order-modal-new.component,auto-complete.component,html
-purchase-order-modal-new.component,auto-complete.component,html
-purchase-order-modal-new.component,auto-complete.component,html
-purchase-order-modal-new.component,auto-complete.component,html
-purchase-order-modal-new.component,auto-complete.component,html
-purchase-order-modal-new.component,auto-complete.component,html
-purchase-order-table.component,collapse-table.component,@ViewChild('collapseTable')
-purchase-order-table.component,collapse-table.component,html
-purchase-order-table.component,supplier-master-modal-new.component,Supplier Name + Supplier Number
-purchase-order-table.component,warehouse-master-modal-new.component,Warehouse Name + Warehouse Number
-purchase-order-table.component,purchase-order-modal-containing-item.component,Item Number + Item Description
-purchase-order-table.component,purchase-order-modal-details.component,Purchase Order
-purchase-order-modal-details.component,table.component,@ViewChild('table')
-purchase-order-modal-details.component,table.component,html
-purchase-order-modal-details.component,table.component,html
-purchase-order-modal-details.component,abstract-modal.component,extends
-purchase-order-modal-details.component,supplier-master-modal-new.component,Supplier Name + Supplier Number
-purchase-order-modal-containing-item.component,table.component,@ViewChild('table')
-purchase-order-modal-containing-item.component,table.component,html
-purchase-order-modal-containing-item.component,table.component,html
-purchase-order-modal-containing-item.component,supplier-master-modal-new.component,Supplier Name + Supplier Number
-purchase-order-modal-containing-item.component,purchase-order-modal-details.component,Purchase Order
-dashboard-sales-at-risk.component,dashboard-sales-at-risk-analytics.component,html
-dashboard-sales-at-risk.component,dashboard-sales-at-risk-table-view.component,html
-dashboard-sales-at-risk-analytics.component,modal-table.component,onClick(event: IBarSample)
-dashboard-sales-at-risk-analytics.component,table.component,onClick(event: IBarSample)
-dashboard-sales-at-risk-analytics.component,tags-input.component,html
-dashboard-sales-at-risk-analytics.component,vertical-bar-plot.component,html
-dashboard-sales-at-risk-table-view.component,tags-input.component,@Input() tagsComponentExternal
-dashboard-sales-at-risk-table-view.component,sales-order.component,html
-dashboard-sales-at-risk-table-view.component,sales-order-table.component,html
-admin-users.component,table.component,@ViewChild('table')
-admin-users.component,table.component,html
-admin-users.component,modal-yes-no.component,onShowModalDelete(index: number)
-admin-users.component,admin-users-modal-new.component,openModalNew()
-admin-users.component,admin-roles-modal-new.component,Role Name
-dashboard-heatmap.component,tags-input.component,@ViewChild('tagsComponent')
-dashboard-heatmap.component,tags-input.component,html
-dashboard-heatmap.component,dashboard-heatmap-items-modal.component,onClickCell(event: string)
-dashboard-heatmap.component,calendar-heatmap.component,html
-dashboard-heatmap.component,three-dots-menu.component,html
-dashboard-heatmap-items-modal.component,table.component,@ViewChild('table')
-dashboard-heatmap-items-modal.component,table.component,html
-dashboard-heatmap-items-modal.component,table.component,html
-dashboard-heatmap-items-modal.component,forecast-modal-containing-item.component,Forecast Quantity
-dashboard-heatmap-items-modal.component,manufacturing-order-modal-containing-item.component,Manufacturing Quantity
-dashboard-heatmap-items-modal.component,modal-ending-inventory.component,Ending Inventory Quantity
-dashboard-heatmap-items-modal.component,inventory.component,Ending Inventory Quantity
-dashboard-heatmap-items-modal.component,purchase-order-modal-containing-item.component,Supply Quantity
-dashboard-heatmap-items-modal.component,sales-order-modal-containing-item.component,Demand Quantity
-external-item-master.component,table.component,@ViewChild('table')
-external-item-master.component,collapse-table.component,@ViewChild('table')
-external-item-master.component,collapse-table.component,html
-external-item-master.component,abstract-job.component,extends
-external-item-master.component,modal-yes-no.component,onShowModalDelete(index: number)
-external-item-master.component,external-item-master-modal-new.component,openModalNew()
-external-item-master.component,item-master-modal-new.component,openModalNew()
-external-item-master.component,job-progress.component,html
-external-item-master-modal-new.component,modal-yes-no.component,onShowModalDeleteExternalItem(i: number)
-external-item-master-modal-new.component,auto-complete.component,html
-external-item-master-modal-new.component,auto-complete.component,html
-unit-master.component,unit-master-modal-new.component,@ViewChild('modalUnit')
-unit-master.component,unit-master-modal-new.component,html
-unit-master.component,table.component,@ViewChild('table')
-unit-master.component,table.component,html
-unit-master.component,abstract-job.component,extends
-unit-master.component,modal-yes-no.component,onShowModalDelete(index: number)
-unit-master.component,job-progress.component,html
-home-graphs.component,home-modal-hot-items.component,onClickHotItems()
-home-graphs.component,dashboard-demand-by-item-and-status.component,html
-home-graphs.component,dashboard-procurement-by-item-and-status.component,html
-home-graphs.component,dashboard-manufacturing-by-item-and-status.component,html
-home-graphs.component,dashboard-manufacturing-by-item-and-status.component,html
-home-graphs.component,dashboard-forecast-by-item.component,html
-home-graphs.component,dashboard-inventory-by-warehouse.component,html
-home-modal-hot-items.component,abstract-modal.component,extends
-home-modal-hot-items.component,inventory-planning-table.component,@ViewChild('table') table: InventoryPlanningTableComponent;)
-home-modal-hot-items.component,inventory-planning-table.component,html
-home-modal-hot-items.component,table.component,@ViewChild('table') table: InventoryPlanningTableComponent;)
-home-modal-hot-items.component,inventory-planning.component,html
-home-modal-hot-items.component,inventory.component,html
-dashboard-manufacturing-by-item-and-status.component,manufacturing-order-modal-bom.component,direct
-dashboard-manufacturing-by-item-and-status.component,horizontal-stacked-bar-plot.component,html
-dashboard-spend-analysis.component,tags-input.component,@ViewChild('tagsComponent')
-dashboard-spend-analysis.component,tags-input.component,html
-dashboard-spend-analysis.component,dashboard-spend-analysis-procurement-by-item.component,html
-dashboard-spend-analysis.component,dashboard-spend-analysis-procurement-by-supplier.component,html
-dashboard-spend-analysis.component,dashboard-spend-analysis-procurement-trend-by-item.component,html
-dashboard-spend-analysis.component,date-range-slider.component,html
-dashboard-spend-analysis-procurement-by-item.component,modal-procurement-by-price.component,onClick(event: IBarSample)
-dashboard-spend-analysis-procurement-by-item.component,horizontal-bar-plot.component,html
-dashboard-spend-analysis-procurement-by-supplier.component,dashboard-spend-analysis-procurement-by-item-modal.component,onClick(event: IBarSample)
-dashboard-spend-analysis-procurement-by-supplier.component,horizontal-bar-plot.component,html
-dashboard-spend-analysis-procurement-by-item-modal.component,modal-procurement-by-price.component,onClick(event: IBarSample)
-dashboard-spend-analysis-procurement-by-item-modal.component,horizontal-bar-plot.component,html
-dashboard-spend-analysis-procurement-by-item-modal.component,date-range-slider.component,html
-dashboard-spend-analysis-procurement-trend-by-item.component,dashboard-spend-analysis-procurement-trend-by-item-and-price-modal.component,onClick(event: IBarSample)
-dashboard-spend-analysis-procurement-trend-by-item.component,dashboard-trend-by-spend.component,html
-dashboard-spend-analysis-procurement-trend-by-item-and-price-modal.component,table.component,@ViewChild('table')
-dashboard-spend-analysis-procurement-trend-by-item-and-price-modal.component,table.component,html
-manufacturing-order-archive.component,manufacturing-order-modal-new.component,onShowModalEdit(index: number)
-manufacturing-order-archive.component,manufacturing-order-table.component,@ViewChild('table')
-manufacturing-order-archive.component,manufacturing-order-table.component,html
-manufacturing-order-archive.component,table.component,@ViewChild('table')
-manufacturing-order-archive.component,manufacturing-order.component,html
-modal-customers.component,abstract-modal.component,extends
-modal-customers.component,customer-master-table.component,@ViewChild('table') table: CustomerMasterTableComponent;)
-modal-customers.component,customer-master-table.component,html
-modal-customers.component,table.component,@ViewChild('table') table: CustomerMasterTableComponent;)
-modal-customers.component,customer-master.component,html
-modal-statistical-analysis.component,tags-input.component,@ViewChild('tagsComponent')
-modal-statistical-analysis.component,tags-input.component,html
-modal-statistical-analysis.component,supply-statistical-analysis.component,html
-modal-statistical-analysis.component,demand-statistical-analysis.component,html
-modal-statistical-analysis.component,three-dots-menu.component,html
-modal-statistical-analysis.component,table.component,html
-modal-statistical-analysis.component,date-range-slider.component,html
-modal-average-lead-time.component,modal-lead-time-histogram.component,onClick(event: IBarSample)
-modal-average-lead-time.component,horizontal-bar-plot.component,html
-modal-total-suppliers.component,horizontal-bar-plot.component,@ViewChild('leadTimePlot') leadTimePlot: HorizontalBarPlotComponent;)
-modal-total-suppliers.component,horizontal-bar-plot.component,@ViewChild('valuePlot') valuePlot: HorizontalBarPlotComponent;)
-modal-total-suppliers.component,horizontal-bar-plot.component,html
-modal-total-suppliers.component,horizontal-bar-plot.component,html
-modal-total-suppliers.component,modal-purchase-orders.component,onClick(event: IBarSample)
-supply-statistical-analysis.component,modal-purchase-orders.component,onClickPurchaseOrders()
-supply-statistical-analysis.component,modal-purchase-orders.component,onClickMaxLeadTime()
-supply-statistical-analysis.component,modal-purchase-orders.component,onClickMinLeadTime()
-supply-statistical-analysis.component,modal-total-suppliers.component,onClickSuppliers()
-supply-statistical-analysis.component,modal-lead-time-histogram.component,onClickLeadTimeHistogram()
-supply-statistical-analysis.component,modal-average-lead-time.component,onClickAverageLeadTime()
-demand-statistical-analysis.component,modal-sales-orders.component,onClickSalesOrders()
-demand-statistical-analysis.component,modal-total-customers.component,onClickCustomers()
-demand-statistical-analysis.component,modal-average-demand.component,onClickAverageDemand()
-demand-statistical-analysis.component,modal-demand-histogram.component,onClickDemandHistogram()
-modal-average-demand.component,modal-sales-orders.component,onClick(event: IBarSample)
-modal-average-demand.component,vertical-bar-plot.component,html
-modal-total-customers.component,modal-sales-orders.component,onClick(event: IBarSample)
-modal-total-customers.component,horizontal-bar-plot.component,html
-dashboard-procurement-items-from-the-same-supplier.component,horizontal-bar-plot.component,@ViewChild('plot')
-dashboard-procurement-items-from-the-same-supplier.component,horizontal-bar-plot.component,html
-dashboard-procurement-items-from-the-same-supplier.component,dashboard-procurement-items-frequency-modal.component,onClick(event: IBarSample)
-dashboard-procurement-items-frequency-modal.component,table.component,@ViewChild('table')
-dashboard-procurement-items-frequency-modal.component,table.component,html
-dashboard-procurement-items-on-the-same-po.component,dashboard-procurement-items-frequency-modal.component,onClick(event: IBarSample)
-dashboard-procurement-items-on-the-same-po.component,horizontal-bar-plot.component,html
-dashboard-world-map.component,dashboard-world-map-modal-procurement.component,EnumWorldMapMarker.Supplier
-dashboard-world-map.component,dashboard-world-map-modal-demand.component,EnumWorldMapMarker.Customer
-dashboard-world-map.component,dashboard-world-map-modal-inventory.component,EnumWorldMapMarker.Warehouse
-dashboard-world-map.component,inventory.component,EnumWorldMapMarker.Warehouse
-sales-order-archive.component,sales-order-table.component,@ViewChild('table')
-sales-order-archive.component,sales-order-table.component,html
-sales-order-archive.component,table.component,@ViewChild('table')
-sales-order-archive.component,abstract-job.component,extends
-sales-order-archive.component,sales-order-modal-new.component,onShowModalEdit(index: number)
-sales-order-archive.component,sales-order.component,html
-sales-order-archive.component,job-progress.component,html
-modal-purchase-orders.component,abstract-modal.component,extends
-modal-purchase-orders.component,purchase-order-table.component,@ViewChild('table') table: PurchaseOrderTableComponent;)
-modal-purchase-orders.component,purchase-order-table.component,html
-modal-purchase-orders.component,table.component,@ViewChild('table') table: PurchaseOrderTableComponent;)
-modal-purchase-orders.component,purchase-order.component,html
-dashboard-analytics-purchase-orders.component,dashboard-skus-modal.component,onClickSKUs()
-dashboard-analytics-purchase-orders.component,dashboard-skus-modal.component,onClickInTransitSKUs()
-dashboard-analytics-purchase-orders.component,modal-suppliers.component,onClickSuppliers()
-dashboard-analytics-purchase-orders.component,modal-purchase-orders.component,onClickPurchaseOrders()
-dashboard-revenue-by-item.component,dashboard-revenue-by-customer-modal.component,onClick(event: IBarSample)
-dashboard-revenue-by-item.component,horizontal-bar-plot.component,html
-dashboard-revenue-by-customer-modal.component,abstract-modal.component,extends
-dashboard-revenue-by-customer-modal.component,horizontal-bar-plot.component,html
-dashboard-statistics.component,dashboard-skus-modal.component,onClickSKUs()
-dashboard-statistics.component,dashboard-warehouses-modal.component,onClickWarehouses()
-dashboard-warehouses-modal.component,abstract-modal.component,extends
-dashboard-warehouses-modal.component,warehouse-master-table.component,@ViewChild('table')
-dashboard-warehouses-modal.component,warehouse-master-table.component,html
-dashboard-warehouses-modal.component,table.component,@ViewChild('table')
-dashboard-warehouses-modal.component,warehouse-master.component,html
-dashboard-analytics-sales-orders.component,modal-customers.component,onClickCustomers()
-dashboard-analytics-sales-orders.component,modal-sales-orders.component,onClickSalesOrders()
-dashboard-analytics-sales-orders.component,dashboard-skus-modal.component,onClickSKUs()
-dashboard-skus-modal.component,abstract-modal.component,extends
-dashboard-skus-modal.component,item-master-table.component,@ViewChild('table') table: ItemMasterTableComponent;)
-dashboard-skus-modal.component,item-master-table.component,html
-dashboard-skus-modal.component,table.component,@ViewChild('table') table: ItemMasterTableComponent;)
-dashboard-skus-modal.component,item-master.component,html
-dashboard-revenue-by-customer.component,dashboard-revenue-by-item-modal.component,onClick(event: IBarSample)
-dashboard-revenue-by-customer.component,horizontal-bar-plot.component,html
-dashboard-revenue-by-item-modal.component,abstract-modal.component,extends
-dashboard-revenue-by-item-modal.component,horizontal-bar-plot.component,html
-dashboard-spend-by-supplier.component,dashboard-spend-by-item-modal.component,onClick(event: IBarSample)
-dashboard-spend-by-supplier.component,horizontal-bar-plot.component,html
-dashboard-spend-by-item-modal.component,abstract-modal.component,extends
-dashboard-spend-by-item-modal.component,horizontal-bar-plot.component,html
-dashboard-spend-by-item.component,dashboard-spend-by-supplier-modal.component,onClick(event: IBarSample)
-dashboard-spend-by-item.component,horizontal-bar-plot.component,html
-dashboard-spend-by-supplier-modal.component,abstract-modal.component,extends
-dashboard-spend-by-supplier-modal.component,horizontal-bar-plot.component,html
-sales-order.component,sales-order-table.component,@ViewChild('table')
-sales-order.component,sales-order-table.component,html
-sales-order.component,table.component,@ViewChild('table')
-sales-order.component,abstract-job.component,extends
-sales-order.component,modal-yes-no.component,onShowModalDelete(index: number)
-sales-order.component,sales-order-modal-new.component,onShowModalEdit(index: number)
-sales-order.component,sales-order-modal-new.component,onShowModalNew()
-sales-order.component,job-progress.component,html
-sales-order-modal-details.component,table.component,@ViewChild('table')
-sales-order-modal-details.component,table.component,html
-sales-order-modal-details.component,table.component,html
-sales-order-modal-details.component,abstract-modal.component,extends
-sales-order-modal-details.component,customer-master-modal-new.component,Customer Name + Customer Number
-sales-order-modal-details.component,manufacturing-order-modal-bom.component,Item Number + Item Description
-sales-order-modal-details.component,inventory.component,const modalRef = this.modalSerivce.open(
-sales-order-modal-details.component,modal-prioritized-item-inventory.component,const modalRef = this.modalSerivce.open(
-sales-order-modal-containing-item.component,table.component,@ViewChild('table')
-sales-order-modal-containing-item.component,table.component,html
-sales-order-modal-containing-item.component,table.component,html
-sales-order-modal-containing-item.component,sales-order-modal-details.component,Sales Order
-sales-order-modal-containing-item.component,customer-master-modal-new.component,Customer Name + Customer Number
-sales-order-modal-containing-item.component,inventory.component,const modalRef = this.modalService.open(
-sales-order-modal-containing-item.component,modal-prioritized-item-inventory.component,const modalRef = this.modalService.open(
-sales-order-modal-new.component,modal-yes-no.component,onShowModalDeleteDetail(i: number)
-sales-order-modal-new.component,auto-complete.component,html
-sales-order-modal-new.component,auto-complete.component,html
-sales-order-modal-new.component,auto-complete.component,html
-sales-order-modal-new.component,auto-complete.component,html
-sales-order-modal-new.component,auto-complete.component,html
-sales-order-modal-new.component,auto-complete.component,html
-sales-order-table.component,inventory.component,const modalRef = this.modalService.open(
-sales-order-table.component,modal-prioritized-item-inventory.component,const modalRef = this.modalService.open(
-sales-order-table.component,collapse-table.component,@ViewChild('collapseTable')
-sales-order-table.component,collapse-table.component,html
-sales-order-table.component,tags-input.component,@Input() tagsComponentExternal
-sales-order-table.component,customer-master-modal-new.component,Customer Name + Customer Number
-sales-order-table.component,warehouse-master-modal-new.component,Warehouse Number + Warehouse Name
-sales-order-table.component,sales-order-modal-containing-item.component,Item Number + Item Description
-sales-order-table.component,sales-order-modal-details.component,Sales Order
-item-master.component,item-master-table.component,@ViewChild('table') table: ItemMasterTableComponent;)
-item-master.component,item-master-table.component,html
-item-master.component,table.component,@ViewChild('table') table: ItemMasterTableComponent;)
-item-master.component,abstract-job.component,extends
-item-master.component,modal-yes-no.component,onShowModalDelete(index: number)
-item-master.component,item-master-modal-new.component,openModalNew()
-item-master.component,sub-item-master-modal-move.component,@ViewChild('modalMove')
-item-master.component,sub-item-master-modal-move.component,onShowModalMoveSubItem(event: IEventChildRow)
-item-master.component,job-progress.component,html
-item-master-modal-new.component,auto-complete.component,@ViewChild('autoCompleteItemType')
-item-master-modal-new.component,auto-complete.component,@ViewChild('subItemNumberAutocomplete')
-item-master-modal-new.component,auto-complete.component,html
-item-master-modal-new.component,auto-complete.component,html
-item-master-modal-new.component,auto-complete.component,html
-item-master-modal-new.component,auto-complete.component,html
-item-master-modal-new.component,auto-complete.component,html
-item-master-modal-new.component,modal-yes-no.component,onShowModalDeleteSubItem(i: number)
-sub-item-master-modal-move.component,auto-complete.component,html
-sub-item-master-modal-move.component,auto-complete.component,html
-sub-item-master-modal-move.component,auto-complete.component,html
-item-master-table.component,collapse-table.component,@ViewChild('collapseTable')
-item-master-table.component,collapse-table.component,html
-admin-roles.component,table.component,@ViewChild('table')
-admin-roles.component,collapse-table.component,@ViewChild('table')
-admin-roles.component,collapse-table.component,html
-admin-roles.component,modal-yes-no.component,onShowModalDelete(index: number)
-admin-roles.component,admin-roles-modal-new.component,openModalNew()
-admin-roles-modal-new.component,modal-yes-no.component,onShowModalDeletePrivilege(i: number)
-admin-roles-modal-new.component,auto-complete.component,html
-admin-roles-modal-new.component,auto-complete.component,html
-admin-roles-modal-new.component,auto-complete.component,html
-dashboard-sales-performance.component,tags-input.component,@ViewChild('tagsComponent')
-dashboard-sales-performance.component,tags-input.component,html
-dashboard-sales-performance.component,sales-performance-lead-time-histogram.component,html
-dashboard-sales-performance.component,sales-performance-graph-lines.component,html
-dashboard-sales-performance.component,sales-performance-on-time-over-time.component,html
-dashboard-sales-performance.component,sales-performance-days-late.component,html
-dashboard-sales-performance.component,sales-performance-days-late.component,html
-dashboard-sales-performance.component,sales-performance-order-per-delivery-date.component,html
-dashboard-sales-performance.component,three-dots-menu.component,html
-dashboard-sales-performance.component,performance-orders.component,html
-dashboard-sales-performance.component,performance-orders.component,html
-sales-performance-lead-time-histogram.component,modal-table.component,onClick(event: IBarSample)
-sales-performance-lead-time-histogram.component,table.component,onClick(event: IBarSample)
-sales-performance-lead-time-histogram.component,vertical-bar-plot.component,html
-sales-performance-graph-lines.component,modal-table.component,On Time
-sales-performance-graph-lines.component,modal-table.component,Late
-sales-performance-graph-lines.component,modal-table.component,Not Commited
-sales-performance-graph-lines.component,modal-table.component,Other
-sales-performance-graph-lines.component,table.component,On Time
-sales-performance-graph-lines.component,table.component,Late
-sales-performance-graph-lines.component,table.component,Not Commited
-sales-performance-graph-lines.component,table.component,Other
-sales-performance-graph-lines.component,vertical-bar-plot.component,html
-sales-performance-on-time-over-time.component,modal-table.component,On Time
-sales-performance-on-time-over-time.component,table.component,On Time
-sales-performance-on-time-over-time.component,vertical-stacked-bar-plot.component,html
-sales-performance-days-late.component,modal-table.component,onClick(event: IBarSample)
-sales-performance-days-late.component,table.component,onClick(event: IBarSample)
-sales-performance-days-late.component,horizontal-bar-plot.component,html
-sales-performance-order-per-delivery-date.component,modal-table.component,onClick(event: IBarSample)
-sales-performance-order-per-delivery-date.component,table.component,onClick(event: IBarSample)
-sales-performance-order-per-delivery-date.component,vertical-bar-plot.component,html
-dashboard-inventory-planning.component,tags-input.component,@ViewChild('tagsComponent') tagsComponent: TagsInputComponent;)
-dashboard-inventory-planning.component,tags-input.component,html
-dashboard-inventory-planning.component,chart.component,html
-views-share-modal.component,abstract-modal.component,extends
-views-share-modal.component,modal-yes-no.component,onClickDelete(sharedUser: IViewsSharedUser, index: number)
-views-share-modal.component,auto-complete.component,html
-modal-suppliers.component,abstract-modal.component,extends
-modal-suppliers.component,supplier-master-table.component,@ViewChild('table') table: SupplierMasterTableComponent;)
-modal-suppliers.component,supplier-master-table.component,html
-modal-suppliers.component,table.component,@ViewChild('table') table: SupplierMasterTableComponent;)
-modal-suppliers.component,supplier-master.component,html
-modal-ending-inventory.component,table.component,@ViewChild('table')
-modal-ending-inventory.component,table.component,html
-modal-ending-inventory.component,forecast-modal-details.component,Ending Inventory Document Type
-modal-ending-inventory.component,manufacturing-order-modal-details.component,Ending Inventory Document Type
-modal-ending-inventory.component,purchase-order-modal-details.component,Ending Inventory Document Type
-modal-ending-inventory.component,sales-order-modal-details.component,Ending Inventory Document Type
-inventory.component,inventory-table.component,@ViewChild('table')
-inventory.component,inventory-table.component,html
-inventory.component,table.component,@ViewChild('table')
-inventory.component,abstract-job.component,extends
-inventory.component,modal-yes-no.component,onShowModalDelete(index: number)
-inventory.component,inventory-modal-new.component,openModalNew()
-inventory.component,job-progress.component,html
-inventory-modal-containing-item.component,table.component,@ViewChild('table')
-inventory-modal-containing-item.component,table.component,html
-inventory-modal-containing-item.component,table.component,html
-inventory-table.component,collapse-table.component,@ViewChild('table')
-inventory-table.component,collapse-table.component,html
-inventory-table.component,purchase-order-modal-containing-item.component,Inventory Supply Quantity
-inventory-modal-new.component,modal-yes-no.component,onClearItem()
-inventory-modal-new.component,modal-yes-no.component,onShowModalDeleteInventory(i: number)
-inventory-modal-new.component,auto-complete.component,html
-inventory-modal-new.component,auto-complete.component,html
-inventory-modal-new.component,auto-complete.component,html
-supplier-master.component,supplier-master-table.component,@ViewChild('table')
-supplier-master.component,supplier-master-table.component,html
-supplier-master.component,table.component,@ViewChild('table')
-supplier-master.component,abstract-job.component,extends
-supplier-master.component,supplier-master-modal-new.component,onShowModalNew()
-supplier-master.component,supplier-master-modal-new.component,onShowModalEdit(index: number)
-supplier-master.component,modal-yes-no.component,onShowModalDelete(index: number)
-supplier-master.component,ship-from-master-modal-move.component,onShowModalMoveShipFrom(event: IEventChildRow)
-supplier-master.component,job-progress.component,html
-supplier-master-table.component,collapse-table.component,@ViewChild('collapseTable')
-supplier-master-table.component,collapse-table.component,html
-supplier-master-modal-new.component,modal-yes-no.component,onShowModalDeleteShipFrom(i: number)
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-issue-tracker.component,table.component,@ViewChild('table')
-issue-tracker.component,table.component,html
-issue-tracker.component,modal-yes-no.component,onShowModalDelete(index: number)
-issue-tracker.component,issue-tracker-modal-new.component,openModalNew()
-issue-tracker-note.component,modal-yes-no.component,onClickDelete()
-forecast-archive.component,forecast-modal-new.component,onShowModalEdit(index: number)
-forecast-archive.component,forecast-table.component,@ViewChild('table')
-forecast-archive.component,forecast-table.component,html
-forecast-archive.component,table.component,@ViewChild('table')
-forecast-archive.component,forecast.component,html
-dashboard-delayed-shipments.component,purchase-order-table.component,@ViewChild('table')
-dashboard-delayed-shipments.component,purchase-order-table.component,html
-dashboard-delayed-shipments.component,table.component,@ViewChild('table')
-dashboard-delayed-shipments.component,purchase-order.component,html
-admin-billing.component,table.component,@ViewChild('table')
-admin-billing.component,table.component,html
-manufacturing-order.component,manufacturing-order-table.component,@ViewChild('table')
-manufacturing-order.component,manufacturing-order-table.component,html
-manufacturing-order.component,table.component,@ViewChild('table')
-manufacturing-order.component,manufacturing-order-modal-new.component,onShowModalNew()
-manufacturing-order.component,manufacturing-order-modal-new.component,onShowModalEdit(index: number)
-manufacturing-order.component,modal-yes-no.component,onShowModalDelete(index: number)
-manufacturing-order.component,abstract-job.component,extends
-manufacturing-order.component,job-progress.component,html
-manufacturing-order-modal-bom.component,abstract-modal.component,extends
-manufacturing-order-modal-bom.component,table.component,@ViewChild('table')
-manufacturing-order-modal-bom.component,table.component,html
-manufacturing-order-modal-bom.component,table.component,html
-manufacturing-order-modal-bom.component,inventory-modal-containing-item.component,Inventory Details Quantity
-manufacturing-order-modal-bom.component,purchase-order-modal-containing-item.component,PO List Quantity
-manufacturing-order-modal-bom.component,manufacturing-order-modal-containing-item.component,MO Total Quantity Scheduled
-manufacturing-order-modal-bom.component,sales-order-modal-containing-item.component,SO List Quantity
-manufacturing-order-modal-bom.component,forecast-modal-containing-item.component,FO List Quantity
-manufacturing-order-modal-containing-item.component,table.component,@ViewChild('table')
-manufacturing-order-modal-containing-item.component,table.component,html
-manufacturing-order-modal-containing-item.component,table.component,html
-manufacturing-order-modal-containing-item.component,manufacturing-order-modal-details.component,Manufacturing Order
-manufacturing-order-modal-details.component,abstract-modal.component,extends
-manufacturing-order-modal-details.component,table.component,@ViewChild('table')
-manufacturing-order-modal-details.component,table.component,html
-manufacturing-order-modal-details.component,table.component,html
-manufacturing-order-modal-details.component,manufacturing-order-modal-bom.component,Item Number + Item Description
-manufacturing-order-modal-new.component,abstract-modal.component,extends
-manufacturing-order-modal-new.component,modal-yes-no.component,onShowModalDeleteDetail(i: number)
-manufacturing-order-modal-new.component,auto-complete.component,html
-manufacturing-order-modal-new.component,auto-complete.component,html
-manufacturing-order-modal-new.component,auto-complete.component,html
-manufacturing-order-modal-new.component,auto-complete.component,html
-manufacturing-order-modal-new.component,auto-complete.component,html
-manufacturing-order-table.component,collapse-table.component,@ViewChild('collapseTable')
-manufacturing-order-table.component,collapse-table.component,html
-manufacturing-order-table.component,warehouse-master-modal-new.component,Warehouse Number
-manufacturing-order-table.component,manufacturing-order-modal-bom.component,Item Number + Item Description
-manufacturing-order-table.component,manufacturing-order-modal-details.component,Manufacturing Order
-modal-customer-item-number.component,abstract-modal.component,extends
-inventory-trend-matrix.component,inventory.component,html
-inventory-trend-matrix.component,inventory-trend-matrix-table.component,html
-inventory-trend-matrix-table.component,collapse-wide-table.component,@ViewChild('wideTable') wideTable: CollapseWideTableComponent;)
-inventory-trend-matrix-table.component,collapse-wide-table.component,html
-inventory-trend-matrix-table.component,tags-input.component,@ViewChild('tagsComponent')
-inventory-trend-matrix-table.component,tags-input.component,html
-inventory-trend-matrix-table.component,inventory-planning-modal-heatmap.component,onShowModalCalendar(index: number)
-inventory-trend-matrix-table.component,inventory-trend-matrix-modal-details.component,onClickCell(event: ICollapseWideTableClick)
-inventory-trend-matrix-table.component,modal-procurement-by-price.component,onShowModalSpendByItem(index: number)
-inventory-trend-matrix-table.component,modal-statistical-analysis.component,onShowModalStatistics(index: number)
-inventory-trend-matrix-table.component,modal-customer-item-number.component,Customer Item Number
-inventory-trend-matrix-table.component,modal-average-demand.component,onShowModalAverageDemand(index: number)
-inventory-trend-matrix-modal-details.component,sales-order-modal-details.component,Type
-inventory-trend-matrix-modal-details.component,purchase-order-modal-details.component,Type
-inventory-trend-matrix-modal-details.component,forecast-modal-details.component,Type
-inventory-trend-matrix-modal-details.component,manufacturing-order-modal-details.component,Type
-inventory-trend-matrix-modal-details.component,table.component,html
-forecast.component,forecast-table.component,@ViewChild('table')
-forecast.component,forecast-table.component,html
-forecast.component,table.component,@ViewChild('table')
-forecast.component,abstract-job.component,extends
-forecast.component,forecast-modal-new.component,onShowModalNew()
-forecast.component,forecast-modal-new.component,onShowModalEdit(index: number)
-forecast.component,modal-yes-no.component,onShowModalDelete(index: number)
-forecast.component,job-progress.component,html
-forecast-modal-details.component,abstract-modal.component,extends
-forecast-modal-details.component,table.component,@ViewChild('table')
-forecast-modal-details.component,table.component,html
-forecast-modal-details.component,table.component,html
-forecast-modal-details.component,customer-master-modal-new.component,Customer Name + Customer Number
-forecast-modal-details.component,manufacturing-order-modal-bom.component,Item Number + Item Description
-forecast-modal-containing-item.component,table.component,@ViewChild('table')
-forecast-modal-containing-item.component,table.component,html
-forecast-modal-containing-item.component,table.component,html
-forecast-modal-containing-item.component,customer-master-modal-new.component,Customer Name + Customer Number
-forecast-modal-containing-item.component,forecast-modal-details.component,Forecast
-forecast-table.component,collapse-table.component,@ViewChild('collapseTable')
-forecast-table.component,collapse-table.component,html
-forecast-table.component,customer-master-modal-new.component,Customer Name + Customer Number
-forecast-table.component,warehouse-master-modal-new.component,Warehouse Number + Warehouse Name
-forecast-table.component,forecast-modal-containing-item.component,Item Number + Item Description
-forecast-table.component,forecast-modal-details.component,Forecast
-forecast-modal-new.component,modal-yes-no.component,onShowModalDeleteDetail(i: number)
-forecast-modal-new.component,auto-complete.component,html
-forecast-modal-new.component,auto-complete.component,html
-forecast-modal-new.component,auto-complete.component,html
-forecast-modal-new.component,auto-complete.component,html
-forecast-modal-new.component,auto-complete.component,html
-forecast-modal-new.component,auto-complete.component,html
 modal-table.component,customer-master-modal-new.component,Customer Name + Customer Number
 modal-table.component,sales-order-modal-details.component,Sales Order
 modal-table.component,sales-order-modal-containing-item.component,Item Number + Item Description
 modal-table.component,warehouse-master-modal-new.component,Warehouse Number + Warehouse Name
 modal-table.component,collapse-table.component,@ViewChild('table') table: TableComponent | CollapseTableComponent;)
 modal-table.component,collapse-table.component,html
-modal-sales-performance-days-late.component,modal-table.component,onClick(event: IBarSample)
-modal-sales-performance-days-late.component,table.component,onClick(event: IBarSample)
-modal-sales-performance-days-late.component,horizontal-bar-plot.component,html
 modal-prioritized-item-inventory.component,table.component,@ViewChild('summary') summaryTable: TableComponent;)
 modal-prioritized-item-inventory.component,table.component,@ViewChild('main') mainTable: TableComponent;)
 modal-prioritized-item-inventory.component,table.component,html
 modal-prioritized-item-inventory.component,table.component,html
 modal-prioritized-item-inventory.component,manufacturing-order-modal-bom.component,Item Number
-collapse-wide-table.component,abstract-table.component,extends
-collapse-wide-table.component,horizontal-scroll.component,html
-collapse-wide-table.component,table-buttons.component,html
-collapse-wide-table.component,table-menu.component,html
-collapse-wide-table.component,date-filter.component,html
-collapse-wide-table.component,number-filter.component,html
-collapse-wide-table.component,auto-complete.component,html
-modal-danger-yes-no.component,modal-warning-yes-no.component,onYes()
-table-menu.component,abstract-menu.component,extends
-three-dots-menu.component,abstract-menu.component,extends
-abstract-menu.component,tags-input.component,@Input() tagsComponent
-abstract-menu.component,views-save-as-modal.component,onClickSaveAsView()
-abstract-menu.component,views-share-modal.component,onClickShareView()
-abstract-menu.component,modal-yes-no.component,onClickDeleteView()
+modal-sales-performance-days-late.component,modal-table.component,onClick(event: IBarSample)
+modal-sales-performance-days-late.component,horizontal-bar-plot.component,html
+collapse-table.component,abstract-table.component,extends
+collapse-table.component,number-filter.component,html
+collapse-table.component,table-buttons.component,html
+collapse-table.component,auto-complete.component,html
+collapse-table.component,date-filter.component,html
+collapse-table.component,tags-input.component,html
+collapse-table.component,table-menu.component,html
 performance-orders.component,modal-table.component,onClickDelayedLines()
 performance-orders.component,modal-table.component,onClickOnTimeLines()
-performance-orders.component,table.component,onClickDelayedLines()
-performance-orders.component,table.component,onClickOnTimeLines()
 performance-orders.component,dashboard-skus-modal.component,onClickSKUs()
 performance-orders.component,modal-customers.component,onClickCustomers()
 performance-orders.component,modal-sales-orders.component,onClickRevenue()
 performance-orders.component,modal-sales-orders.component,onClickTotalOrders()
 performance-orders.component,modal-sales-orders.component,onClickDelayedOrders()
 performance-orders.component,modal-sales-orders.component,onClickOnTimeOrders()
+collapse-wide-table.component,abstract-table.component,extends
+collapse-wide-table.component,number-filter.component,html
+collapse-wide-table.component,table-buttons.component,html
+collapse-wide-table.component,auto-complete.component,html
+collapse-wide-table.component,date-filter.component,html
+collapse-wide-table.component,table-menu.component,html
+collapse-wide-table.component,horizontal-scroll.component,html
+table-menu.component,abstract-menu.component,extends
 table.component,abstract-table.component,extends
+table.component,number-filter.component,html
 table.component,table-buttons.component,html
+table.component,auto-complete.component,html
+table.component,date-filter.component,html
 table.component,tags-input.component,html
 table.component,table-menu.component,html
-table.component,date-filter.component,html
-table.component,number-filter.component,html
-table.component,auto-complete.component,html
-collapse-table.component,abstract-table.component,extends
-collapse-table.component,table-buttons.component,html
-collapse-table.component,tags-input.component,html
-collapse-table.component,table-menu.component,html
-collapse-table.component,date-filter.component,html
-collapse-table.component,number-filter.component,html
-collapse-table.component,auto-complete.component,html
 abstract-table.component,tags-input.component,@ViewChild('tagsComponent') tagsComponent: TagsInputComponent;)
 abstract-table.component,tags-input.component,@Input() tagsComponentExternal
+three-dots-menu.component,abstract-menu.component,extends
+modal-danger-yes-no.component,modal-warning-yes-no.component,onYes()
+abstract-menu.component,tags-input.component,@Input() tagsComponent
+abstract-menu.component,views-save-as-modal.component,onClickSaveAsView()
+abstract-menu.component,views-share-modal.component,onClickShareView()
+abstract-menu.component,modal-yes-no.component,onClickDeleteView()
 app.component,navigation-bar.component,html
 app.component,notifications.component,html
+home.component,home-graphs.component,html
+home.component,dashboard-heatmap.component,html
+home.component,dashboard-world-map.component,html
+dashboard-procurement-by-item-and-status.component,horizontal-stacked-bar-plot.component,html
+dashboard-forecast-by-item.component,horizontal-bar-plot.component,html
+dashboard-inventory-by-warehouse.component,horizontal-stacked-bar-plot.component,html
+dashboard-demand-by-item-and-status.component,horizontal-stacked-bar-plot.component,html
+dashboard-procurement-patterns.component,dashboard-procurement-items-from-the-same-supplier.component,html
+dashboard-procurement-patterns.component,dashboard-procurement-items-on-the-same-po.component,html
+dashboard-procurement-patterns.component,date-range-slider.component,html
+ship-from-master-modal-move.component,auto-complete.component,html
+ship-from-master-modal-move.component,auto-complete.component,html
+ship-from-master-modal-move.component,auto-complete.component,html
+dashboard-current-analytics.component,dashboard-analytics-purchase-orders.component,html
+dashboard-current-analytics.component,dashboard-revenue-by-customer.component,html
+dashboard-current-analytics.component,dashboard-statistics.component,html
+dashboard-current-analytics.component,dashboard-revenue-by-item.component,html
+dashboard-current-analytics.component,dashboard-spend-by-item.component,html
+dashboard-current-analytics.component,dashboard-inventory-distribution.component,html
+dashboard-current-analytics.component,dashboard-analytics-sales-orders.component,html
+dashboard-current-analytics.component,dashboard-spend-by-supplier.component,html
+dashboard-inventory-distribution.component,pie-chart.component,html
 ship-to-master-modal-move.component,auto-complete.component,html
 ship-to-master-modal-move.component,auto-complete.component,html
 ship-to-master-modal-move.component,auto-complete.component,html
-scenario-analysis-modal-compare-trend-matrix.component,inventory.component,html
 scenario-analysis-modal-compare-trend-matrix.component,inventory-trend-matrix.component,html
 scenario-analysis-modal-compare-trend-matrix.component,inventory-trend-matrix-table.component,html
+scenario-analysis-modal-compare-trend-matrix.component,inventory.component,html
+modal-lead-time-histogram.component,vertical-bar-plot.component,html
+modal-demand-histogram.component,vertical-bar-plot.component,html
 warehouse-master-modal-new.component,auto-complete.component,html
 warehouse-master-modal-new.component,auto-complete.component,html
 warehouse-master-modal-new.component,auto-complete.component,html
@@ -862,54 +824,30 @@ navigation-bar.component,navigation-bar-notifications.component,html
 navigation-bar-modal-notification.component,table.component,html
 navigation-bar-notifications.component,navigation-bar.component,html
 navigation-bar-notifications.component,navigation-bar-modal-notification.component,html
-home.component,dashboard-heatmap.component,html
-home.component,home-graphs.component,html
-home.component,dashboard-world-map.component,html
-dashboard-demand-by-item-and-status.component,horizontal-stacked-bar-plot.component,html
-dashboard-procurement-by-item-and-status.component,horizontal-stacked-bar-plot.component,html
-dashboard-forecast-by-item.component,horizontal-bar-plot.component,html
-dashboard-inventory-by-warehouse.component,horizontal-stacked-bar-plot.component,html
-modal-lead-time-histogram.component,vertical-bar-plot.component,html
-modal-demand-histogram.component,vertical-bar-plot.component,html
-dashboard-procurement-patterns.component,dashboard-procurement-items-from-the-same-supplier.component,html
-dashboard-procurement-patterns.component,dashboard-procurement-items-on-the-same-po.component,html
-dashboard-procurement-patterns.component,date-range-slider.component,html
-dashboard-world-map-modal-demand.component,sales-order.component,html
-dashboard-world-map-modal-demand.component,sales-order-table.component,html
-dashboard-world-map-modal-procurement.component,purchase-order.component,html
-dashboard-world-map-modal-procurement.component,purchase-order-table.component,html
-dashboard-world-map-modal-inventory.component,inventory-table.component,html
-dashboard-current-analytics.component,dashboard-analytics-purchase-orders.component,html
-dashboard-current-analytics.component,dashboard-revenue-by-item.component,html
-dashboard-current-analytics.component,dashboard-statistics.component,html
-dashboard-current-analytics.component,dashboard-analytics-sales-orders.component,html
-dashboard-current-analytics.component,dashboard-revenue-by-customer.component,html
-dashboard-current-analytics.component,dashboard-spend-by-supplier.component,html
-dashboard-current-analytics.component,dashboard-spend-by-item.component,html
-dashboard-current-analytics.component,dashboard-inventory-distribution.component,html
-dashboard-inventory-distribution.component,pie-chart.component,html
-dashboard-historical-analytics.component,dashboard-analytics-purchase-orders.component,html
-dashboard-historical-analytics.component,dashboard-revenue-by-item.component,html
-dashboard-historical-analytics.component,dashboard-analytics-sales-orders.component,html
-dashboard-historical-analytics.component,dashboard-revenue-by-customer.component,html
-dashboard-historical-analytics.component,dashboard-spend-by-supplier.component,html
-dashboard-historical-analytics.component,dashboard-spend-by-item.component,html
-dashboard-historical-analytics.component,dashboard-trend-by-spend.component,html
-dashboard-historical-analytics.component,dashboard-trend-by-revenue.component,html
-dashboard-historical-analytics.component,date-range-slider.component,html
-dashboard-trend-by-spend.component,vertical-bar-plot.component,html
-dashboard-trend-by-spend.component,auto-complete.component,html
-dashboard-trend-by-revenue.component,vertical-bar-plot.component,html
-dashboard-trend-by-revenue.component,auto-complete.component,html
-ship-from-master-modal-move.component,auto-complete.component,html
-ship-from-master-modal-move.component,auto-complete.component,html
-ship-from-master-modal-move.component,auto-complete.component,html
 issue-tracker-modal-new.component,issue-tracker.component,html
 issue-tracker-modal-new.component,issue-tracker-note.component,html
 issue-tracker-modal-new.component,auto-complete.component,html
 issue-tracker-modal-new.component,auto-complete.component,html
 issue-tracker-modal-new.component,auto-complete.component,html
+dashboard-world-map-modal-inventory.component,inventory-table.component,html
+dashboard-world-map-modal-procurement.component,purchase-order.component,html
+dashboard-world-map-modal-procurement.component,purchase-order-table.component,html
+dashboard-world-map-modal-demand.component,sales-order.component,html
+dashboard-world-map-modal-demand.component,sales-order-table.component,html
+dashboard-historical-analytics.component,dashboard-analytics-purchase-orders.component,html
+dashboard-historical-analytics.component,dashboard-revenue-by-customer.component,html
+dashboard-historical-analytics.component,dashboard-revenue-by-item.component,html
+dashboard-historical-analytics.component,dashboard-spend-by-item.component,html
+dashboard-historical-analytics.component,dashboard-analytics-sales-orders.component,html
+dashboard-historical-analytics.component,dashboard-spend-by-supplier.component,html
+dashboard-historical-analytics.component,dashboard-trend-by-spend.component,html
+dashboard-historical-analytics.component,dashboard-trend-by-revenue.component,html
+dashboard-historical-analytics.component,date-range-slider.component,html
+dashboard-trend-by-spend.component,auto-complete.component,html
+dashboard-trend-by-spend.component,vertical-bar-plot.component,html
+dashboard-trend-by-revenue.component,auto-complete.component,html
+dashboard-trend-by-revenue.component,vertical-bar-plot.component,html
 world-map.component,world-map-legend.component,html
-tags-input.component,auto-complete.component,html
-auto-complete.component,date-filter.component,html
 auto-complete.component,number-filter.component,html
+auto-complete.component,date-filter.component,html
+tags-input.component,auto-complete.component,html
