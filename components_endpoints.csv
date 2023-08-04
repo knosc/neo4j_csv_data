@@ -54,7 +54,7 @@ scenario-analysis-modal-impacted-procurement.component,/scenario-analysis-impact
 scenario-analysis-modal-impacted-procurement.component,/scenario-analysis-impacted-procurement,this.http.get(`${ /scenario-analysis-impacted-procurement }/${ scenarioID }/${ poID }`; this.httpOptions);,getImpactedProcurementDetails(scenarioID: number; poID: number; search: ISearchArgs)
 scenario-analysis-modal-compare-heatmap.component,/dashboard-heatmap,this.http.get<IDashboardHeatmapGETResponse>(/dashboard-heatmap; options);,get(type: string; by: string; search: ISearchArgs; scenario?: number)
 scenario-analysis-modal-compare-heatmap.component,/scenario-analysis-impacted-items,this.http.get(`${ /scenario-analysis-impacted-items }/${ id }`; options);,getImpactedItems(id: number; search: ISearchArgs)
-warehouse-master.component,/supplier-master,this.http.delete(`${ /supplier-master }/${ id }`; this.httpOptions);,deleteSupplierMaster(id: number)
+warehouse-master.component,url,this.http.delete(url; this.httpOptions);,deleteWarehouseMaster(id: number)
 warehouse-master.component,/job,this.http.post(`${ /job }/${ job }`; postData; this.httpOptions);,post(job: string; data?: FormData)
 warehouse-master.component,/templates,this.http.post(/templates; data; this.httpOptionsFile);,postTemplates(data: ITemplateType)
 modal-sales-orders.component,/dashboard-analytics-sales-orders,this.http.get<IDashboardAnalyticsSalesOrders>(/dashboard-analytics-sales-orders; this.httpOptions);,getDashboardAnalyticsSalesOrders(search?: ISearchArgs)
