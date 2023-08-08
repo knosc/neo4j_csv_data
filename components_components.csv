@@ -596,7 +596,6 @@ inventory-modal-containing-item.component,table.component,html
 inventory-table.component,collapse-table.component,@ViewChild('table')
 inventory-table.component,collapse-table.component,html
 inventory-table.component,purchase-order-modal-containing-item.component,Inventory Supply Quantity
-inventory-modal-new.component,modal-yes-no.component,onClearItem()
 inventory-modal-new.component,modal-yes-no.component,onShowModalDeleteInventory(i: number)
 inventory-modal-new.component,auto-complete.component,html
 inventory-modal-new.component,auto-complete.component,html
