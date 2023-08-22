@@ -147,7 +147,6 @@ item-master-modal-new.component,/item-master,this.http.get<ISubItemMasterGETResp
 item-master-modal-new.component,/item-master,this.http.post(/item-master; data; this.httpOptions);,postItemMaster(data: IItemMasterPOSTRequest)
 item-master-modal-new.component,/item-master,this.http.put(/item-master + '/' + data.id.toString(); data; this.httpOptions);,putItemMaster(data: IItemMasterSave)
 item-master-modal-new.component,/sub-item-master,this.http.delete(`${ /sub-item-master }/${ id }`; this.httpOptions);,deleteSubItemMaster(id: number)
-sub-item-master-modal-move.component,/sub-item-master,this.http.put(/sub-item-master + '/' + data.id.toString(); data; this.httpOptions);,putSubItemMaster(data: IMoveSubItem)
 item-master-table.component,/item-master,this.http.get<IItemMasterGETResponse>(/item-master; options);,getItemMaster(search: ISearchArgs)
 item-master-table.component,/item-master,this.http.get<ISubItemMasterGETResponse>(`${ /item-master }/${ itemNumber }`; options);,getItemMasterDetails(itemNumber: number; search?: ISearchArgs)
 admin-roles.component,/role,this.http.get<IRoleListGETResponse>(/role; options);,getRoleList(search?: ISearchArgs)
