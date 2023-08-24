@@ -365,6 +365,10 @@ unit-master.component,table.component,html
 unit-master.component,unit-master-modal-new.component,@ViewChild('modalUnit')
 unit-master.component,unit-master-modal-new.component,html
 unit-master.component,job-progress.component,html
+home.component,hypothetical-calculations-settings.component,onClickHypotheticalCalculationsSettings()
+home.component,dashboard-heatmap.component,html
+home.component,home-graphs.component,html
+home.component,dashboard-world-map.component,html
 home-graphs.component,home-modal-hot-items.component,onClickHotItems()
 home-graphs.component,dashboard-demand-by-item-and-status.component,html
 home-graphs.component,dashboard-procurement-by-item-and-status.component,html
@@ -788,9 +792,6 @@ navigation-bar.component,navigation-bar-notifications.component,html
 navigation-bar-modal-notification.component,table.component,html
 navigation-bar-notifications.component,navigation-bar.component,html
 navigation-bar-notifications.component,navigation-bar-modal-notification.component,html
-home.component,dashboard-heatmap.component,html
-home.component,home-graphs.component,html
-home.component,dashboard-world-map.component,html
 dashboard-demand-by-item-and-status.component,horizontal-stacked-bar-plot.component,html
 dashboard-procurement-by-item-and-status.component,horizontal-stacked-bar-plot.component,html
 dashboard-forecast-by-item.component,horizontal-bar-plot.component,html
