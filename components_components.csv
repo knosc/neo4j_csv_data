@@ -162,6 +162,8 @@ scenario-analysis.component,scenario-analysis-modal-total-demand.component,Scena
 scenario-analysis.component,scenario-analysis-modal-total-forecast.component,Scenarios FO Count
 scenario-analysis.component,scenario-analysis-modal-total-manufacturing.component,Scenarios MO Count
 scenario-analysis.component,scenario-analysis-modal-total-procurement.component,Scenarios PO Count
+scenario-analysis.component,abstract-job.component,extends
+scenario-analysis.component,job-progress.component,html
 scenario-analysis-modal-total-procurement.component,purchase-order-table.component,@ViewChild('table') table: PurchaseOrderTableComponent;)
 scenario-analysis-modal-total-procurement.component,purchase-order-table.component,html
 scenario-analysis-modal-total-procurement.component,purchase-order.component,html
