@@ -37,6 +37,7 @@ endpoint_id
 /forecast-details
 /forecast-item
 /export-data
+riPat
 /purchase-order
 /purchase-order-details
 /purchase-order-item
@@ -74,7 +75,6 @@ endpoint_id
 /dashboard-procurement-by-price
 /dashboard-procurement-trend-by-item-and-price
 /dashboard-procurement-items-on-the-same-po
-/dashboard-procurement-items-from-the-same-supplier
 /dashboard-procurement-items-frequency
 /inventory
 /inventory-upload
