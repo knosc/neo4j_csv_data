@@ -705,10 +705,10 @@ inventory-trend-matrix-table.component,modal-procurement-by-price.component,cons
 inventory-trend-matrix-table.component,modal-average-demand.component,onShowModalAverageDemand(index: number)
 inventory-trend-matrix-table.component,modal-statistical-analysis.component,const modalRef = this.modalService.open(
 inventory-trend-matrix-table.component,inventory-trend-matrix-modal-details.component,const modalRef = this.modalService.open(
-inventory-trend-matrix-modal-details.component,forecast-modal-details.component,const modalRef = this.modalService.open(
-inventory-trend-matrix-modal-details.component,manufacturing-order-modal-details.component,const modalRef = this.modalService.open(
-inventory-trend-matrix-modal-details.component,purchase-order-modal-details.component,const modalRef = this.modalService.open(
-inventory-trend-matrix-modal-details.component,sales-order-modal-details.component,const modalRef = this.modalService.open(
+inventory-trend-matrix-modal-details.component,forecast-modal-details.component,modalRef = this.modalService.open(
+inventory-trend-matrix-modal-details.component,manufacturing-order-modal-details.component,modalRef = this.modalService.open(
+inventory-trend-matrix-modal-details.component,purchase-order-modal-details.component,modalRef = this.modalService.open(
+inventory-trend-matrix-modal-details.component,sales-order-modal-details.component,modalRef = this.modalService.open(
 inventory-trend-matrix-modal-details.component,table.component,html
 forecast.component,abstract-job.component,extends
 forecast.component,modal-yes-no.component,onShowModalDelete(index: number)
