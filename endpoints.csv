@@ -34,6 +34,7 @@ endpoint_id
 /dashboard-trend-by-revenue
 /dashboard-trend-by-spend
 /forecast
+/scenario-forecast-details
 /forecast-details
 /forecast-item
 /export-data
@@ -41,13 +42,16 @@ riPat
 /purchase-order
 /purchase-order-details
 /purchase-order-item
+/scenario-purchase-order-details
 /sales-order
 /sales-order-details
 /sales-order-item
+/scenario-sales-order-details
 /manufacturing-order
 /manufacturing-order-details
 /manufacturing-order-bom
 /manufacturing-order-item
+/scenario-manufacturing-order-details
 /scenario-analysis
 /scenario-analysis-impact
 /scenario-analysis-impacted-items
