@@ -2,7 +2,6 @@ endpoint_id
 /api
 /validate-privileges
 /navigation-bar
-/status
 /user
 /sub-item-master
 /supplier-master
