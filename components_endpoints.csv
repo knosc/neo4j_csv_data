@@ -31,7 +31,6 @@ unit-master.component,url,this.http.get<IUnitMasterGETResponse>(,getUnitMaster(s
 unit-master.component,url,this.http.delete(url; this.httpOptions);,deleteUnitMaster(id: number)
 unit-master.component,/templates,this.http.post(/templates; data; this.httpOptionsFile);,postTemplates(data: ITemplateType)
 home.component,/views,this.http.get<IViewsGETResponse>(/views; options);,get(search: ISearchArgs)
-home.component,/status,this.http.get<IApiStatus>(/status; this.httpOptions);,getApiStatus()
 home.component,url,this.http.put(url; data; this.httpOptions);,put(id: number; data: IViewsPUTRequest)
 home.component,/views,this.http.post(/views; data; this.httpOptions);,post(data: IViewsPOSTRequest)
 supply-statistical-analysis.component,/help,this.http.post(/help; data; this.httpOptions);,post(data: IHelpPOSTRequest)
