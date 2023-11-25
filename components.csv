@@ -133,6 +133,7 @@ sales-order-modal-containing-item.component
 sales-order-modal-new.component
 sales-order-table.component
 forgot-password.component
+custom-columns.component
 dashboard-historical-analytics.component
 dashboard-trend-by-spend.component
 dashboard-trend-by-revenue.component
