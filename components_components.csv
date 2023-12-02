@@ -48,6 +48,7 @@ app-routing.module,supplier-master.component,{
 app-routing.module,transactions-flow.component,{
 app-routing.module,unit-master.component,{
 app-routing.module,warehouse-master.component,{
+app-routing.module,custom-columns.component,{
 modal-procurement-by-price.component,abstract-modal.component,extends
 modal-procurement-by-price.component,tags-input.component,{
 modal-procurement-by-price.component,tags-input.component,html
@@ -535,6 +536,17 @@ sales-order-table.component,customer-master-modal-new.component,const modalRef =
 sales-order-table.component,warehouse-master-modal-new.component,const modalRef = this.modalService.open(
 sales-order-table.component,sales-order-modal-containing-item.component,const modalRef = this.modalService.open(
 sales-order-table.component,sales-order-modal-details.component,const modalRef = this.modalService.open(
+custom-columns.component,custom-columns-table.component,@ViewChild("table")
+custom-columns.component,custom-columns-table.component,html
+custom-columns.component,custom-columns-modal-new.component,const modalRef: NgbModalRef = this.modalService.open(
+custom-columns.component,custom-columns-modal-new.component,const modalRef: NgbModalRef = this.modalService.open(
+custom-columns.component,custom-columns-modal-edit-priority.component,const modalRef = this.modalService.open(
+custom-columns-modal-delete.component,modal-yes-no.component,const modalRef: NgbModalRef = this.modalService.open(
+custom-columns-table.component,collapse-table.component,export class CustomColumnsTableComponent implements OnInit {
+custom-columns-table.component,collapse-table.component,html
+custom-columns-table.component,custom-columns-modal-delete.component,const modalRef: NgbModalRef = this.modalService.open(
+custom-columns-modal-edit-priority.component,table.component,@ViewChild("table")
+custom-columns-modal-edit-priority.component,table.component,html
 item-master.component,abstract-job.component,extends
 item-master.component,modal-yes-no.component,onShowModalDelete(index: number)
 item-master.component,item-master-modal-new.component,openModalNew()
@@ -778,6 +790,8 @@ performance-orders.component,modal-sales-orders.component,onClickTotalOrders()
 performance-orders.component,modal-sales-orders.component,onClickDelayedOrders()
 performance-orders.component,modal-sales-orders.component,onClickOnTimeOrders()
 table.component,abstract-table.component,extends
+table.component,modal-yes-no.component,onDragDrop(event: CdkDragDrop<string[]>)
+table.component,table-buttons.component,html
 table.component,table-buttons.component,html
 table.component,tags-input.component,html
 table.component,table-menu.component,html
