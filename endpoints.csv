@@ -37,6 +37,7 @@ endpoint_id
 /forecast-details
 /forecast-item
 /export-data
+/custom-columns
 riPat
 /purchase-order
 /purchase-order-details
@@ -113,4 +114,5 @@ riPat
 /performance-orders
 /sales-prioritized-item-inventory
 /user-settings
+/custom-columns-on-table
 url
