@@ -15,7 +15,6 @@ bill-of-materials-table.component
 reset-password.component
 dashboard-historical-transactions.component
 customer-master.component
-customer-master-modal-new.component
 ship-to-master-modal-move.component
 customer-master-table.component
 signin.component
@@ -48,7 +47,6 @@ scenario-analysis-modal-total-demand.component
 scenario-analysis-modal-compare-heatmap.component
 warehouse-master.component
 warehouse-master-table.component
-warehouse-master-modal-new.component
 modal-sales-orders.component
 admin-settings.component
 admin-settings-integrations.component
@@ -59,7 +57,6 @@ admin-settings-erp-decision-manager.component
 transactions-flow.component
 transactions-flow-modal-details.component
 purchase-order.component
-purchase-order-modal-new.component
 purchase-order-table.component
 purchase-order-modal-details.component
 purchase-order-modal-containing-item.component
@@ -191,6 +188,7 @@ forecast-modal-details.component
 forecast-modal-containing-item.component
 forecast-table.component
 forecast-modal-new.component
+create-edit.component
 modal-table.component
 hypothetical-calculations-settings.component
 modal-sales-performance-days-late.component
