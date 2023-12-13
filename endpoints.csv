@@ -38,6 +38,7 @@ endpoint_id
 /forecast-item
 /export-data
 /custom-columns
+${this.baseUr
 riPat
 /purchase-order
 /purchase-order-details
