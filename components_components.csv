@@ -101,7 +101,6 @@ purchase-order-archive.component,abstract-job.component,extends
 purchase-order-archive.component,hypothetical-calculations-settings.component,const modalRef = this.modalService.open(
 purchase-order-archive.component,purchase-order-table.component,@ViewChild("table")
 purchase-order-archive.component,purchase-order-table.component,html
-purchase-order-archive.component,create-edit.component,onShowModalEdit(index: number)
 purchase-order-archive.component,purchase-order.component,html
 purchase-order-archive.component,job-progress.component,html
 bill-of-materials.component,abstract-job.component,extends
@@ -124,7 +123,6 @@ dashboard-historical-transactions.component,tags-input.component,html
 dashboard-historical-transactions.component,purchase-order-modal-details.component,const modalRef = this.modalService.open(
 dashboard-historical-transactions.component,sales-order-modal-details.component,const modalRef = this.modalService.open(
 dashboard-historical-transactions.component,supplier-master-modal-new.component,const modalRef = this.modalService.open(
-dashboard-historical-transactions.component,create-edit.component,if (this.data.rows[event.index]["Type"] === "Demand") {
 dashboard-historical-transactions.component,table.component,html
 customer-master.component,abstract-job.component,extends
 customer-master.component,modal-yes-no.component,onShowModalDelete(index: number)
@@ -296,7 +294,6 @@ purchase-order-table.component,collapse-table.component,html
 purchase-order-table.component,supplier-master-modal-new.component,const modalRef = this.modalService.open(
 purchase-order-table.component,purchase-order-modal-containing-item.component,const modalRef = this.modalService.open(
 purchase-order-table.component,purchase-order-modal-details.component,const modalRef = this.modalService.open(
-purchase-order-table.component,create-edit.component,) {
 purchase-order-modal-details.component,abstract-modal.component,extends
 purchase-order-modal-details.component,table.component,@ViewChild("table")
 purchase-order-modal-details.component,table.component,html
@@ -491,13 +488,11 @@ sales-order-modal-details.component,table.component,@ViewChild("table")
 sales-order-modal-details.component,table.component,html
 sales-order-modal-details.component,table.component,html
 sales-order-modal-details.component,manufacturing-order-modal-bom.component,const modalRef = this.modalSerivce.open(
-sales-order-modal-details.component,create-edit.component,) {
 sales-order-modal-containing-item.component,modal-prioritized-item-inventory.component,const modalRef = this.modalService.open(
 sales-order-modal-containing-item.component,table.component,@ViewChild("table")
 sales-order-modal-containing-item.component,table.component,html
 sales-order-modal-containing-item.component,table.component,html
 sales-order-modal-containing-item.component,sales-order-modal-details.component,const modalRef = this.modalService.open(
-sales-order-modal-containing-item.component,create-edit.component,) {
 sales-order-modal-new.component,modal-yes-no.component,onShowModalDeleteDetail(i: number)
 sales-order-modal-new.component,auto-complete.component,html
 sales-order-modal-new.component,auto-complete.component,html
@@ -511,8 +506,6 @@ sales-order-table.component,collapse-table.component,html
 sales-order-table.component,tags-input.component,@Input() tagsComponentExternal
 sales-order-table.component,sales-order-modal-containing-item.component,const modalRef = this.modalService.open(
 sales-order-table.component,sales-order-modal-details.component,const modalRef = this.modalService.open(
-sales-order-table.component,create-edit.component,) {
-sales-order-table.component,create-edit.component,) {
 custom-columns.component,custom-columns-table.component,@ViewChild("table")
 custom-columns.component,custom-columns-table.component,html
 custom-columns.component,custom-columns-modal-new.component,const modalRef: NgbModalRef = this.modalService.open(
@@ -678,7 +671,6 @@ manufacturing-order-table.component,collapse-table.component,export class Manufa
 manufacturing-order-table.component,collapse-table.component,html
 manufacturing-order-table.component,manufacturing-order-modal-bom.component,const modalRef = this.modalService.open(
 manufacturing-order-table.component,manufacturing-order-modal-details.component,const modalRef = this.modalService.open(
-manufacturing-order-table.component,create-edit.component,} else if (event.column == "Warehouse Number") {
 modal-customer-item-number.component,abstract-modal.component,extends
 inventory-trend-matrix.component,hypothetical-calculations-settings.component,const modalRef = this.modalService.open(
 inventory-trend-matrix.component,inventory.component,html
@@ -712,18 +704,14 @@ forecast-modal-details.component,table.component,@ViewChild("table")
 forecast-modal-details.component,table.component,html
 forecast-modal-details.component,table.component,html
 forecast-modal-details.component,manufacturing-order-modal-bom.component,const modalRef = this.modalService.open(
-forecast-modal-details.component,create-edit.component,) {
 forecast-modal-containing-item.component,table.component,@ViewChild("table")
 forecast-modal-containing-item.component,table.component,html
 forecast-modal-containing-item.component,table.component,html
 forecast-modal-containing-item.component,forecast-modal-details.component,const modalRef = this.modalService.open(
-forecast-modal-containing-item.component,create-edit.component,) {
 forecast-table.component,collapse-table.component,export class ForecastTableComponent implements OnInit {
 forecast-table.component,collapse-table.component,html
 forecast-table.component,forecast-modal-containing-item.component,const modalRef = this.modalService.open(
 forecast-table.component,forecast-modal-details.component,const modalRef = this.modalService.open(
-forecast-table.component,create-edit.component,) {
-forecast-table.component,create-edit.component,) {
 forecast-modal-new.component,modal-yes-no.component,onShowModalDeleteDetail(i: number)
 forecast-modal-new.component,auto-complete.component,html
 forecast-modal-new.component,auto-complete.component,html
@@ -738,8 +726,6 @@ modal-table.component,collapse-table.component,@ViewChild("table") table: TableC
 modal-table.component,collapse-table.component,html
 modal-table.component,sales-order-modal-containing-item.component,const modalRef = this.modalService.open(
 modal-table.component,sales-order-modal-details.component,const modalRef = this.modalService.open(
-modal-table.component,create-edit.component,) {
-modal-table.component,create-edit.component,) {
 modal-sales-performance-days-late.component,modal-table.component,onClick(event: IBarSample)
 modal-sales-performance-days-late.component,horizontal-bar-plot.component,html
 modal-prioritized-item-inventory.component,table.component,@ViewChild("summary") summaryTable: TableComponent;)
