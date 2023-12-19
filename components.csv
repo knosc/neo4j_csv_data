@@ -165,7 +165,6 @@ inventory-modal-new.component
 supplier-master.component
 ship-from-master-modal-move.component
 supplier-master-table.component
-supplier-master-modal-new.component
 issue-tracker.component
 issue-tracker-modal-new.component
 issue-tracker-note.component
