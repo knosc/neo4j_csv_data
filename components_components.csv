@@ -122,7 +122,6 @@ dashboard-historical-transactions.component,tags-input.component,@ViewChild("tag
 dashboard-historical-transactions.component,tags-input.component,html
 dashboard-historical-transactions.component,purchase-order-modal-details.component,const modalRef = this.modalService.open(
 dashboard-historical-transactions.component,sales-order-modal-details.component,const modalRef = this.modalService.open(
-dashboard-historical-transactions.component,supplier-master-modal-new.component,const modalRef = this.modalService.open(
 dashboard-historical-transactions.component,table.component,html
 customer-master.component,abstract-job.component,extends
 customer-master.component,modal-yes-no.component,onShowModalDelete(index: number)
@@ -291,18 +290,15 @@ purchase-order.component,purchase-order-table.component,html
 purchase-order.component,job-progress.component,html
 purchase-order-table.component,collapse-table.component,export class PurchaseOrderTableComponent implements OnInit {
 purchase-order-table.component,collapse-table.component,html
-purchase-order-table.component,supplier-master-modal-new.component,const modalRef = this.modalService.open(
 purchase-order-table.component,purchase-order-modal-containing-item.component,const modalRef = this.modalService.open(
 purchase-order-table.component,purchase-order-modal-details.component,const modalRef = this.modalService.open(
 purchase-order-modal-details.component,abstract-modal.component,extends
 purchase-order-modal-details.component,table.component,@ViewChild("table")
 purchase-order-modal-details.component,table.component,html
 purchase-order-modal-details.component,table.component,html
-purchase-order-modal-details.component,supplier-master-modal-new.component,const modalRef = this.modalService.open(
 purchase-order-modal-containing-item.component,table.component,@ViewChild("table")
 purchase-order-modal-containing-item.component,table.component,html
 purchase-order-modal-containing-item.component,table.component,html
-purchase-order-modal-containing-item.component,supplier-master-modal-new.component,const modalRef = this.modalService.open(
 purchase-order-modal-containing-item.component,purchase-order-modal-details.component,const modalRef = this.modalService.open(
 dashboard-sales-at-risk.component,hypothetical-calculations-settings.component,const modalRef = this.modalService.open(
 dashboard-sales-at-risk.component,dashboard-sales-at-risk-analytics.component,html
@@ -602,23 +598,11 @@ inventory-modal-new.component,auto-complete.component,html
 supplier-master.component,abstract-job.component,extends
 supplier-master.component,modal-yes-no.component,onShowModalDelete(index: number)
 supplier-master.component,ship-from-master-modal-move.component,const modalRef = this.modalService.open(
-supplier-master.component,supplier-master-modal-new.component,const modalRef = this.modalService.open(
-supplier-master.component,supplier-master-modal-new.component,const modalRef = this.modalService.open(
 supplier-master.component,supplier-master-table.component,@ViewChild("table")
 supplier-master.component,supplier-master-table.component,html
 supplier-master.component,job-progress.component,html
 supplier-master-table.component,collapse-table.component,export class SupplierMasterTableComponent implements OnInit {
 supplier-master-table.component,collapse-table.component,html
-supplier-master-modal-new.component,modal-yes-no.component,onShowModalDeleteShipFrom(i: number)
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
 issue-tracker.component,modal-yes-no.component,onShowModalDelete(index: number)
 issue-tracker.component,table.component,@ViewChild("table")
 issue-tracker.component,table.component,html
