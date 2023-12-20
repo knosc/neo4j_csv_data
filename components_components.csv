@@ -706,6 +706,7 @@ forecast-modal-new.component,auto-complete.component,html
 create-edit.component,modal-yes-no.component,if (id) {
 create-edit.component,auto-complete.component,@ViewChildren(AutoCompleteComponent))
 create-edit.component,auto-complete.component,export class CreateEditComponent implements OnInit {
+create-edit.component,auto-complete.component,pressEnterOnAutocompletes()
 create-edit.component,auto-complete.component,html
 create-edit.component,auto-complete.component,html
 modal-table.component,collapse-table.component,@ViewChild("table") table: TableComponent | CollapseTableComponent;)
