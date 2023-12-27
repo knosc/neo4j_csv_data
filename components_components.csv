@@ -105,17 +105,9 @@ purchase-order-archive.component,purchase-order.component,html
 purchase-order-archive.component,job-progress.component,html
 bill-of-materials.component,abstract-job.component,extends
 bill-of-materials.component,modal-yes-no.component,onShowModalDelete(index: number)
-bill-of-materials.component,bill-of-materials-modal-new.component,const modalRef = this.modalService.open(
 bill-of-materials.component,bill-of-materials-table.component,@ViewChild("table")
 bill-of-materials.component,bill-of-materials-table.component,html
 bill-of-materials.component,job-progress.component,html
-bill-of-materials-modal-new.component,abstract-modal.component,extends
-bill-of-materials-modal-new.component,modal-yes-no.component,onShowModalDeleteDetail(i: number)
-bill-of-materials-modal-new.component,auto-complete.component,html
-bill-of-materials-modal-new.component,auto-complete.component,html
-bill-of-materials-modal-new.component,auto-complete.component,html
-bill-of-materials-modal-new.component,auto-complete.component,html
-bill-of-materials-modal-new.component,auto-complete.component,html
 bill-of-materials-table.component,collapse-table.component,export class BillOfMaterialsTableComponent implements OnInit {
 bill-of-materials-table.component,collapse-table.component,html
 dashboard-historical-transactions.component,tags-input.component,@ViewChild("tagsComponent") tagsComponent: TagsInputComponent;)
@@ -332,17 +324,11 @@ external-item-master.component,abstract-job.component,extends
 external-item-master.component,collapse-table.component,@ViewChild("table")
 external-item-master.component,collapse-table.component,html
 external-item-master.component,modal-yes-no.component,onShowModalDelete(index: number)
-external-item-master.component,external-item-master-modal-new.component,const modalRef = this.modalService.open(
 external-item-master.component,job-progress.component,html
-external-item-master-modal-new.component,modal-yes-no.component,onShowModalDeleteExternalItem(i: number)
-external-item-master-modal-new.component,auto-complete.component,html
-external-item-master-modal-new.component,auto-complete.component,html
 unit-master.component,abstract-job.component,extends
 unit-master.component,modal-yes-no.component,onShowModalDelete(index: number)
 unit-master.component,table.component,@ViewChild("table")
 unit-master.component,table.component,html
-unit-master.component,unit-master-modal-new.component,{
-unit-master.component,unit-master-modal-new.component,html
 unit-master.component,job-progress.component,html
 home.component,hypothetical-calculations-settings.component,const modalRef = this.modalService.open(
 home.component,dashboard-heatmap.component,html
@@ -515,19 +501,11 @@ custom-columns-modal-edit-priority.component,table.component,@ViewChild("table")
 custom-columns-modal-edit-priority.component,table.component,html
 item-master.component,abstract-job.component,extends
 item-master.component,modal-yes-no.component,onShowModalDelete(index: number)
-item-master.component,item-master-modal-new.component,openModalNew()
 item-master.component,item-master-table.component,@ViewChild("table") table: ItemMasterTableComponent;)
 item-master.component,item-master-table.component,html
 item-master.component,sub-item-master-modal-move.component,{
 item-master.component,sub-item-master-modal-move.component,const modalRef = this.modalService.open(
 item-master.component,job-progress.component,html
-item-master-modal-new.component,auto-complete.component,export class ItemMasterModalNewComponent implements OnInit {
-item-master-modal-new.component,auto-complete.component,export class ItemMasterModalNewComponent implements OnInit {
-item-master-modal-new.component,auto-complete.component,html
-item-master-modal-new.component,auto-complete.component,html
-item-master-modal-new.component,auto-complete.component,html
-item-master-modal-new.component,auto-complete.component,html
-item-master-modal-new.component,modal-yes-no.component,onShowModalDeleteSubItem(i: number)
 item-master-table.component,collapse-table.component,export class ItemMasterTableComponent implements OnInit {
 item-master-table.component,collapse-table.component,html
 admin-roles.component,collapse-table.component,@ViewChild("table")
