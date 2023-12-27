@@ -10,7 +10,6 @@ asn-modal-new.component
 asn-modal-add-forecast.component
 purchase-order-archive.component
 bill-of-materials.component
-bill-of-materials-modal-new.component
 bill-of-materials-table.component
 reset-password.component
 dashboard-historical-transactions.component
@@ -68,9 +67,7 @@ admin-users-modal-new.component
 dashboard-heatmap.component
 dashboard-heatmap-items-modal.component
 external-item-master.component
-external-item-master-modal-new.component
 unit-master.component
-unit-master-modal-new.component
 navigation-bar.component
 navigation-bar-modal-notification.component
 navigation-bar-notifications.component
@@ -140,7 +137,6 @@ dashboard-trend-by-spend.component
 dashboard-trend-by-revenue.component
 first-signin.component
 item-master.component
-item-master-modal-new.component
 sub-item-master-modal-move.component
 item-master-table.component
 profile.component
