@@ -490,8 +490,6 @@ sales-order-table.component,sales-order-modal-containing-item.component,const mo
 sales-order-table.component,sales-order-modal-details.component,const modalRef = this.modalService.open(
 custom-columns.component,custom-columns-table.component,@ViewChild("table")
 custom-columns.component,custom-columns-table.component,html
-custom-columns.component,custom-columns-modal-new.component,const modalRef: NgbModalRef = this.modalService.open(
-custom-columns.component,custom-columns-modal-new.component,const modalRef: NgbModalRef = this.modalService.open(
 custom-columns.component,custom-columns-modal-edit-priority.component,const modalRef = this.modalService.open(
 custom-columns-modal-delete.component,modal-yes-no.component,const modalRef: NgbModalRef = this.modalService.open(
 custom-columns-table.component,collapse-table.component,export class CustomColumnsTableComponent implements OnInit {
@@ -687,6 +685,7 @@ create-edit.component,auto-complete.component,export class CreateEditComponent i
 create-edit.component,auto-complete.component,pressEnterOnAutocompletes()
 create-edit.component,auto-complete.component,html
 create-edit.component,auto-complete.component,html
+create-edit.component,custom-columns-modal-delete.component,const modalRef = this.modalService.open(
 modal-table.component,collapse-table.component,@ViewChild("table") table: TableComponent | CollapseTableComponent;)
 modal-table.component,collapse-table.component,html
 modal-table.component,sales-order-modal-containing-item.component,const modalRef = this.modalService.open(
