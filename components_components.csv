@@ -48,6 +48,7 @@ app-routing.module,supplier-master.component,{
 app-routing.module,transactions-flow.component,{
 app-routing.module,unit-master.component,{
 app-routing.module,warehouse-master.component,{
+app-routing.module,custom-columns.component,{
 modal-procurement-by-price.component,abstract-modal.component,extends
 modal-procurement-by-price.component,tags-input.component,{
 modal-procurement-by-price.component,tags-input.component,html
@@ -98,51 +99,28 @@ asn-modal-add-forecast.component,forecast-table.component,@ViewChild("table") ta
 asn-modal-add-forecast.component,forecast-table.component,html
 purchase-order-archive.component,abstract-job.component,extends
 purchase-order-archive.component,hypothetical-calculations-settings.component,const modalRef = this.modalService.open(
-purchase-order-archive.component,purchase-order-modal-new.component,const modalRef = this.modalService.open(
 purchase-order-archive.component,purchase-order-table.component,@ViewChild("table")
 purchase-order-archive.component,purchase-order-table.component,html
 purchase-order-archive.component,purchase-order.component,html
 purchase-order-archive.component,job-progress.component,html
 bill-of-materials.component,abstract-job.component,extends
 bill-of-materials.component,modal-yes-no.component,onShowModalDelete(index: number)
-bill-of-materials.component,bill-of-materials-modal-new.component,const modalRef = this.modalService.open(
 bill-of-materials.component,bill-of-materials-table.component,@ViewChild("table")
 bill-of-materials.component,bill-of-materials-table.component,html
 bill-of-materials.component,job-progress.component,html
-bill-of-materials-modal-new.component,abstract-modal.component,extends
-bill-of-materials-modal-new.component,modal-yes-no.component,onShowModalDeleteDetail(i: number)
-bill-of-materials-modal-new.component,auto-complete.component,html
-bill-of-materials-modal-new.component,auto-complete.component,html
-bill-of-materials-modal-new.component,auto-complete.component,html
-bill-of-materials-modal-new.component,auto-complete.component,html
-bill-of-materials-modal-new.component,auto-complete.component,html
 bill-of-materials-table.component,collapse-table.component,export class BillOfMaterialsTableComponent implements OnInit {
 bill-of-materials-table.component,collapse-table.component,html
 dashboard-historical-transactions.component,tags-input.component,@ViewChild("tagsComponent") tagsComponent: TagsInputComponent;)
 dashboard-historical-transactions.component,tags-input.component,html
-dashboard-historical-transactions.component,customer-master-modal-new.component,const modalRef = this.modalService.open(
 dashboard-historical-transactions.component,purchase-order-modal-details.component,const modalRef = this.modalService.open(
 dashboard-historical-transactions.component,sales-order-modal-details.component,const modalRef = this.modalService.open(
-dashboard-historical-transactions.component,supplier-master-modal-new.component,const modalRef = this.modalService.open(
 dashboard-historical-transactions.component,table.component,html
 customer-master.component,abstract-job.component,extends
 customer-master.component,modal-yes-no.component,onShowModalDelete(index: number)
-customer-master.component,customer-master-modal-new.component,const modalRef = this.modalService.open(
-customer-master.component,customer-master-modal-new.component,const modalRef = this.modalService.open(
 customer-master.component,customer-master-table.component,@ViewChild("table")
 customer-master.component,customer-master-table.component,html
 customer-master.component,ship-to-master-modal-move.component,const modalRef = this.modalService.open(
 customer-master.component,job-progress.component,html
-customer-master-modal-new.component,modal-yes-no.component,onShowModalDeleteShipTo(i: number)
-customer-master-modal-new.component,auto-complete.component,html
-customer-master-modal-new.component,auto-complete.component,html
-customer-master-modal-new.component,auto-complete.component,html
-customer-master-modal-new.component,auto-complete.component,html
-customer-master-modal-new.component,auto-complete.component,html
-customer-master-modal-new.component,auto-complete.component,html
-customer-master-modal-new.component,auto-complete.component,html
-customer-master-modal-new.component,auto-complete.component,html
-customer-master-modal-new.component,auto-complete.component,html
 customer-master-table.component,collapse-table.component,export class CustomerMasterTableComponent implements OnInit {
 customer-master-table.component,collapse-table.component,html
 scenario-analysis.component,modal-yes-no.component,onShowModalDelete(index: number)
@@ -258,8 +236,6 @@ scenario-analysis-modal-compare-heatmap.component,calendar-heatmap.component,htm
 scenario-analysis-modal-compare-heatmap.component,calendar-heatmap.component,html
 warehouse-master.component,abstract-job.component,extends
 warehouse-master.component,modal-yes-no.component,onShowModalDelete(index: number)
-warehouse-master.component,warehouse-master-modal-new.component,const modalRef = this.modalService.open(
-warehouse-master.component,warehouse-master-modal-new.component,const modalRef = this.modalService.open(
 warehouse-master.component,warehouse-master-table.component,@ViewChild("table") table: WarehouseMasterTableComponent;)
 warehouse-master.component,warehouse-master-table.component,html
 warehouse-master.component,job-progress.component,html
@@ -301,33 +277,20 @@ transactions-flow-modal-details.component,table.component,html
 purchase-order.component,abstract-job.component,extends
 purchase-order.component,modal-yes-no.component,onShowModalDelete(index: number)
 purchase-order.component,hypothetical-calculations-settings.component,const modalRef = this.modalService.open(
-purchase-order.component,purchase-order-modal-new.component,const modalRef = this.modalService.open(
-purchase-order.component,purchase-order-modal-new.component,const modalRef = this.modalService.open(
 purchase-order.component,purchase-order-table.component,@ViewChild("table")
 purchase-order.component,purchase-order-table.component,html
 purchase-order.component,job-progress.component,html
-purchase-order-modal-new.component,modal-yes-no.component,onShowModalDeleteDetail(i: number)
-purchase-order-modal-new.component,auto-complete.component,html
-purchase-order-modal-new.component,auto-complete.component,html
-purchase-order-modal-new.component,auto-complete.component,html
-purchase-order-modal-new.component,auto-complete.component,html
-purchase-order-modal-new.component,auto-complete.component,html
-purchase-order-modal-new.component,auto-complete.component,html
 purchase-order-table.component,collapse-table.component,export class PurchaseOrderTableComponent implements OnInit {
 purchase-order-table.component,collapse-table.component,html
-purchase-order-table.component,supplier-master-modal-new.component,const modalRef = this.modalService.open(
-purchase-order-table.component,warehouse-master-modal-new.component,const modalRef = this.modalService.open(
 purchase-order-table.component,purchase-order-modal-containing-item.component,const modalRef = this.modalService.open(
 purchase-order-table.component,purchase-order-modal-details.component,const modalRef = this.modalService.open(
 purchase-order-modal-details.component,abstract-modal.component,extends
 purchase-order-modal-details.component,table.component,@ViewChild("table")
 purchase-order-modal-details.component,table.component,html
 purchase-order-modal-details.component,table.component,html
-purchase-order-modal-details.component,supplier-master-modal-new.component,const modalRef = this.modalService.open(
 purchase-order-modal-containing-item.component,table.component,@ViewChild("table")
 purchase-order-modal-containing-item.component,table.component,html
 purchase-order-modal-containing-item.component,table.component,html
-purchase-order-modal-containing-item.component,supplier-master-modal-new.component,const modalRef = this.modalService.open(
 purchase-order-modal-containing-item.component,purchase-order-modal-details.component,const modalRef = this.modalService.open(
 dashboard-sales-at-risk.component,hypothetical-calculations-settings.component,const modalRef = this.modalService.open(
 dashboard-sales-at-risk.component,dashboard-sales-at-risk-analytics.component,html
@@ -361,17 +324,11 @@ external-item-master.component,abstract-job.component,extends
 external-item-master.component,collapse-table.component,@ViewChild("table")
 external-item-master.component,collapse-table.component,html
 external-item-master.component,modal-yes-no.component,onShowModalDelete(index: number)
-external-item-master.component,external-item-master-modal-new.component,const modalRef = this.modalService.open(
 external-item-master.component,job-progress.component,html
-external-item-master-modal-new.component,modal-yes-no.component,onShowModalDeleteExternalItem(i: number)
-external-item-master-modal-new.component,auto-complete.component,html
-external-item-master-modal-new.component,auto-complete.component,html
 unit-master.component,abstract-job.component,extends
 unit-master.component,modal-yes-no.component,onShowModalDelete(index: number)
 unit-master.component,table.component,@ViewChild("table")
 unit-master.component,table.component,html
-unit-master.component,unit-master-modal-new.component,{
-unit-master.component,unit-master-modal-new.component,html
 unit-master.component,job-progress.component,html
 home.component,hypothetical-calculations-settings.component,const modalRef = this.modalService.open(
 home.component,dashboard-heatmap.component,html
@@ -512,13 +469,11 @@ sales-order-modal-details.component,abstract-modal.component,extends
 sales-order-modal-details.component,table.component,@ViewChild("table")
 sales-order-modal-details.component,table.component,html
 sales-order-modal-details.component,table.component,html
-sales-order-modal-details.component,customer-master-modal-new.component,const modalRef = this.modalSerivce.open(
 sales-order-modal-details.component,manufacturing-order-modal-bom.component,const modalRef = this.modalSerivce.open(
 sales-order-modal-containing-item.component,modal-prioritized-item-inventory.component,const modalRef = this.modalService.open(
 sales-order-modal-containing-item.component,table.component,@ViewChild("table")
 sales-order-modal-containing-item.component,table.component,html
 sales-order-modal-containing-item.component,table.component,html
-sales-order-modal-containing-item.component,customer-master-modal-new.component,const modalRef = this.modalService.open(
 sales-order-modal-containing-item.component,sales-order-modal-details.component,const modalRef = this.modalService.open(
 sales-order-modal-new.component,modal-yes-no.component,onShowModalDeleteDetail(i: number)
 sales-order-modal-new.component,auto-complete.component,html
@@ -531,25 +486,24 @@ sales-order-table.component,modal-prioritized-item-inventory.component,const mod
 sales-order-table.component,collapse-table.component,export class SalesOrderTableComponent implements OnInit, OnChanges {
 sales-order-table.component,collapse-table.component,html
 sales-order-table.component,tags-input.component,@Input() tagsComponentExternal
-sales-order-table.component,customer-master-modal-new.component,const modalRef = this.modalService.open(
-sales-order-table.component,warehouse-master-modal-new.component,const modalRef = this.modalService.open(
 sales-order-table.component,sales-order-modal-containing-item.component,const modalRef = this.modalService.open(
 sales-order-table.component,sales-order-modal-details.component,const modalRef = this.modalService.open(
+custom-columns.component,custom-columns-table.component,@ViewChild("table")
+custom-columns.component,custom-columns-table.component,html
+custom-columns.component,custom-columns-modal-edit-priority.component,const modalRef = this.modalService.open(
+custom-columns-modal-delete.component,modal-yes-no.component,const modalRef: NgbModalRef = this.modalService.open(
+custom-columns-table.component,collapse-table.component,export class CustomColumnsTableComponent implements OnInit {
+custom-columns-table.component,collapse-table.component,html
+custom-columns-table.component,custom-columns-modal-delete.component,const modalRef: NgbModalRef = this.modalService.open(
+custom-columns-modal-edit-priority.component,table.component,@ViewChild("table")
+custom-columns-modal-edit-priority.component,table.component,html
 item-master.component,abstract-job.component,extends
 item-master.component,modal-yes-no.component,onShowModalDelete(index: number)
-item-master.component,item-master-modal-new.component,openModalNew()
 item-master.component,item-master-table.component,@ViewChild("table") table: ItemMasterTableComponent;)
 item-master.component,item-master-table.component,html
 item-master.component,sub-item-master-modal-move.component,{
 item-master.component,sub-item-master-modal-move.component,const modalRef = this.modalService.open(
 item-master.component,job-progress.component,html
-item-master-modal-new.component,auto-complete.component,export class ItemMasterModalNewComponent implements OnInit {
-item-master-modal-new.component,auto-complete.component,export class ItemMasterModalNewComponent implements OnInit {
-item-master-modal-new.component,auto-complete.component,html
-item-master-modal-new.component,auto-complete.component,html
-item-master-modal-new.component,auto-complete.component,html
-item-master-modal-new.component,auto-complete.component,html
-item-master-modal-new.component,modal-yes-no.component,onShowModalDeleteSubItem(i: number)
 item-master-table.component,collapse-table.component,export class ItemMasterTableComponent implements OnInit {
 item-master-table.component,collapse-table.component,html
 admin-roles.component,collapse-table.component,@ViewChild("table")
@@ -620,23 +574,11 @@ inventory-modal-new.component,auto-complete.component,html
 supplier-master.component,abstract-job.component,extends
 supplier-master.component,modal-yes-no.component,onShowModalDelete(index: number)
 supplier-master.component,ship-from-master-modal-move.component,const modalRef = this.modalService.open(
-supplier-master.component,supplier-master-modal-new.component,const modalRef = this.modalService.open(
-supplier-master.component,supplier-master-modal-new.component,const modalRef = this.modalService.open(
 supplier-master.component,supplier-master-table.component,@ViewChild("table")
 supplier-master.component,supplier-master-table.component,html
 supplier-master.component,job-progress.component,html
 supplier-master-table.component,collapse-table.component,export class SupplierMasterTableComponent implements OnInit {
 supplier-master-table.component,collapse-table.component,html
-supplier-master-modal-new.component,modal-yes-no.component,onShowModalDeleteShipFrom(i: number)
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
-supplier-master-modal-new.component,auto-complete.component,html
 issue-tracker.component,modal-yes-no.component,onShowModalDelete(index: number)
 issue-tracker.component,table.component,@ViewChild("table")
 issue-tracker.component,table.component,html
@@ -687,7 +629,6 @@ manufacturing-order-modal-new.component,auto-complete.component,html
 manufacturing-order-modal-new.component,auto-complete.component,html
 manufacturing-order-table.component,collapse-table.component,export class ManufacturingOrderTableComponent implements OnInit {
 manufacturing-order-table.component,collapse-table.component,html
-manufacturing-order-table.component,warehouse-master-modal-new.component,const modalRef = this.modalService.open(
 manufacturing-order-table.component,manufacturing-order-modal-bom.component,const modalRef = this.modalService.open(
 manufacturing-order-table.component,manufacturing-order-modal-details.component,const modalRef = this.modalService.open(
 modal-customer-item-number.component,abstract-modal.component,extends
@@ -722,17 +663,13 @@ forecast-modal-details.component,abstract-modal.component,extends
 forecast-modal-details.component,table.component,@ViewChild("table")
 forecast-modal-details.component,table.component,html
 forecast-modal-details.component,table.component,html
-forecast-modal-details.component,customer-master-modal-new.component,const modalRef = this.modalService.open(
 forecast-modal-details.component,manufacturing-order-modal-bom.component,const modalRef = this.modalService.open(
 forecast-modal-containing-item.component,table.component,@ViewChild("table")
 forecast-modal-containing-item.component,table.component,html
 forecast-modal-containing-item.component,table.component,html
-forecast-modal-containing-item.component,customer-master-modal-new.component,const modalRef = this.modalService.open(
 forecast-modal-containing-item.component,forecast-modal-details.component,const modalRef = this.modalService.open(
 forecast-table.component,collapse-table.component,export class ForecastTableComponent implements OnInit {
 forecast-table.component,collapse-table.component,html
-forecast-table.component,customer-master-modal-new.component,const modalRef = this.modalService.open(
-forecast-table.component,warehouse-master-modal-new.component,const modalRef = this.modalService.open(
 forecast-table.component,forecast-modal-containing-item.component,const modalRef = this.modalService.open(
 forecast-table.component,forecast-modal-details.component,const modalRef = this.modalService.open(
 forecast-modal-new.component,modal-yes-no.component,onShowModalDeleteDetail(i: number)
@@ -742,12 +679,17 @@ forecast-modal-new.component,auto-complete.component,html
 forecast-modal-new.component,auto-complete.component,html
 forecast-modal-new.component,auto-complete.component,html
 forecast-modal-new.component,auto-complete.component,html
+create-edit.component,modal-yes-no.component,if (id) {
+create-edit.component,auto-complete.component,@ViewChildren(AutoCompleteComponent))
+create-edit.component,auto-complete.component,export class CreateEditComponent implements OnInit {
+create-edit.component,auto-complete.component,pressEnterOnAutocompletes()
+create-edit.component,auto-complete.component,html
+create-edit.component,auto-complete.component,html
+create-edit.component,custom-columns-modal-delete.component,const modalRef = this.modalService.open(
 modal-table.component,collapse-table.component,@ViewChild("table") table: TableComponent | CollapseTableComponent;)
 modal-table.component,collapse-table.component,html
-modal-table.component,customer-master-modal-new.component,const modalRef = this.modalService.open(
 modal-table.component,sales-order-modal-containing-item.component,const modalRef = this.modalService.open(
 modal-table.component,sales-order-modal-details.component,const modalRef = this.modalService.open(
-modal-table.component,warehouse-master-modal-new.component,const modalRef = this.modalService.open(
 modal-sales-performance-days-late.component,modal-table.component,onClick(event: IBarSample)
 modal-sales-performance-days-late.component,horizontal-bar-plot.component,html
 modal-prioritized-item-inventory.component,table.component,@ViewChild("summary") summaryTable: TableComponent;)
@@ -778,6 +720,8 @@ performance-orders.component,modal-sales-orders.component,onClickTotalOrders()
 performance-orders.component,modal-sales-orders.component,onClickDelayedOrders()
 performance-orders.component,modal-sales-orders.component,onClickOnTimeOrders()
 table.component,abstract-table.component,extends
+table.component,modal-yes-no.component,onDragDrop(event: CdkDragDrop<string[]>)
+table.component,table-buttons.component,html
 table.component,table-buttons.component,html
 table.component,tags-input.component,html
 table.component,table-menu.component,html
@@ -801,10 +745,6 @@ ship-to-master-modal-move.component,auto-complete.component,html
 scenario-analysis-modal-compare-trend-matrix.component,inventory.component,html
 scenario-analysis-modal-compare-trend-matrix.component,inventory-trend-matrix.component,html
 scenario-analysis-modal-compare-trend-matrix.component,inventory-trend-matrix-table.component,html
-warehouse-master-modal-new.component,auto-complete.component,html
-warehouse-master-modal-new.component,auto-complete.component,html
-warehouse-master-modal-new.component,auto-complete.component,html
-warehouse-master-modal-new.component,auto-complete.component,html
 navigation-bar.component,navigation-bar-notifications.component,html
 navigation-bar-modal-notification.component,table.component,html
 navigation-bar-notifications.component,navigation-bar.component,html
